@@ -3,6 +3,8 @@
 #include <stdio.h>
 using namespace std;
 
+// Maratona 18\06\16 - Ex. D - Guitar Hero
+
 int main(int argc, char const *argv[]) {
     int N, score;
     bool noErrors = true;

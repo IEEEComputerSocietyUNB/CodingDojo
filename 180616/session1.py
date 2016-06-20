@@ -1,4 +1,6 @@
 '''
+Lampadas:
+
 Um homem chamado José é o responsável por ligar e desligar as luzes de um corredor.
 Cada lâmpada tem seu próprio interruptor que liga e a desliga. Inicialmente todas as lâmpadas estão desligadas.
 José faz uma coisa peculiar: se existem n lâmpadas no corredor, ele caminha até o fim do corredor e volta n vezes.
