@@ -11,7 +11,7 @@ The good :smiley::
 - Linguagem diferente / nova (Python lindão)
 - Cooperação (Fluxo)
 
-The Bad :confused::
+The Bad :worried::
 - Faltou intro / bagagem mínima sobre linguagem
 - Dispersão
 - Treinar mais conceito baby step - passos maiores que as pernas
@@ -25,7 +25,7 @@ The good :smiley::
 - Teve mais cooperatividade
 - Dinâmica diferente
 
-The Bad :confused::
+The Bad :worried::
 - Testes são chatos!
 
 The Ugly :fearful::
