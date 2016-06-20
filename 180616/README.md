@@ -3,6 +3,16 @@ Coding Dojo UnB
 
 ### 18 - June - 2016
 
+#### How to run:
+```bash
+$ python session1.py
+```
+
+```bash
+$ cat s1-input | ./session2
+```
+
+#### Retrospectiva:
 ##### Sessão 1 (TDD):
 
 The good :smiley::
@@ -29,12 +39,3 @@ The Bad :worried::
 - Testes são chatos!
 
 The Ugly :fearful::
-
-#### How to run:
-```bash
-$ python session1.py
-```
-
-```bash
-$ cat s1-input | ./session2
-```
