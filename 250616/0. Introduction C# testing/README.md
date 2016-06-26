@@ -7,6 +7,8 @@ Exemplo Introdução
 - Abordagem introdutória à linguagem C# e ao TDD
 - Habituação com ferramentas (Visual Studio, NUnit e Testes)
 
+===========
+
 #### Configurando:
 - Criar novo Projeto no Visual Studio (ExemploIntrodução)
   Básico Console Application - ignorar classes criadas automaticamente, pois testaremos uma classe
@@ -16,10 +18,12 @@ Exemplo Introdução
 
 - Manage NuGet Packages -> Adicionar ao projeto o framework NUnit 2.6.4 (compatível com o Adapter) + NUnitTestAdapter
   * Usaremos o framework NUnit pois é focado em TDD *
-  
+
 - Manter o TestExplorer aberto
-	
-#### Implementação:	
+
+===========
+
+#### Implementação:
 Em Simples-Teste.cs podemos modificar a classe para que se torne uma classe de testes:
 
 ```C#
@@ -51,7 +55,7 @@ Rodar testes novamente -> vai Falhar! Pois na criação automática o método la
 
 - Corrigindo então eem Simples.cs:
 
-  	
+
 ```C#
   	public static string GetValor(int input)
     {
@@ -84,7 +88,7 @@ FALHOU! Acredite ou não então estamos no caminho certo!
     {
         return "1"; // é o requisito mínimo
     }
-``` 
+```
 - PASSOU! Beleza!
 
 
@@ -111,4 +115,5 @@ public static string GetValor(int input)
 }
 ```
 
-- Esse foi o fim da nossa introdução
+===========
+#### FIM!
