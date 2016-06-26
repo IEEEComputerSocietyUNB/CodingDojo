@@ -5,25 +5,26 @@ Exemplo Introdução
 
 ===========
 #### Objetivos:
-- Abordagem introdutória à linguagem C# e ao TDD
-- Habituação com ferramentas (Visual Studio, NUnit e Testes)
+- Abordagem introdutória à **linguagem C#** e ao **Test-Driven Development (TDD)**
+- Habituação com ferramentas:
+	- Visual Studio, NUnit e seus Testes
 
 ===========
-
 #### Configurando:
-- Criar novo Projeto no Visual Studio (ExemploIntrodução)
+- Criar novo Projeto no **Visual Studio** (Exemplo Introdução)
   Básico Console Application - ignorar classes criadas automaticamente, pois testaremos uma classe
 
-- Criar Classe Simples.cs                 -> classe alvo dos testes
-- Criar Classe de testes Simples-Teste.cs -> classe que testará a classe alvo
+- Criar Classe Simples.cs                 -> **classe alvo dos testes**
+- Criar Classe de testes Simples-Teste.cs -> **classe de testes** - testa a classe alvo
 
 - Manage NuGet Packages -> Adicionar ao projeto o framework NUnit 2.6.4 (compatível com o Adapter) + NUnitTestAdapter
   * Usaremos o framework NUnit pois é focado em TDD *
 
 - Manter o TestExplorer aberto
+
 ===========
 #### Implementação:
-Em Simples-Teste.cs podemos modificar a classe para que se torne uma classe de testes:
+Em Simples-Teste.cs podemos modificar a classe para que se torne uma **classe de testes**:
 
 ```C#
     [TestFixture]                     // atributo indica que a classe conterá testes
@@ -38,7 +39,7 @@ Em Simples-Teste.cs podemos modificar a classe para que se torne uma classe de t
 ```
 Rodar o teste em Run All no TestExplorer -> passou! Mas isto ainda não é um caso de TDD! Este foi só exemplo do NUnit em ação...
 
-- Simples-Teste.cs podemos adicionar um novo teste mais complexo:
+- Simples-Teste.cs podemos adicionar um **novo teste** mais complexo:
 
 ```C#
     [Test]
@@ -50,9 +51,9 @@ Rodar o teste em Run All no TestExplorer -> passou! Mas isto ainda não é um ca
     }
 ```
 GetValor ainda não exite! Em Show Potencial Fixes - automaticamente criamos o Método GetValor no Simples.cs
-Rodar testes novamente -> vai Falhar! Pois na criação automática o método lança a exeção de não implementado
+Rodar testes novamente -> vai falhar, pois na criação automática o método este lança a exceção de que não foi implementado
 
-- Corrigindo então eem Simples.cs:
+- Corrigindo então em Simples.cs:
 
 
 ```C#
@@ -62,10 +63,13 @@ Rodar testes novamente -> vai Falhar! Pois na criação automática o método la
     }
 ```
 
-Deu certo agora, pois a output já recebe algo. Mas, de novo, ainda não é TDD! Para o TDD devemos utilizar um Assert!
-Agora sim, vamos começar o TDD.
+Deu certo agora, pois a output já recebe algo. Mas, de novo, **ainda não é TDD!**
+Para o TDD devemos utilizar ao menos um Assert! Agora sim, vamos começar o TDD.
 
-1. Em Simples-Teste.cs devemos escrever teste que falhe (RED):
+===========
+####TDD:
+
+**1. Em Simples-Teste.cs devemos escrever teste que falhe (RED):**
 
 ```C#
 	public void Quando1_Retorna1()
@@ -77,10 +81,10 @@ Agora sim, vamos começar o TDD.
         Assert.AreEqual("1", output); // o Assert compara a igualdade entre "1" e output
 	}
 ```
-FALHOU! Acredite ou não então estamos no caminho certo!
+**FALHOU!** Acredite ou não então estamos no caminho certo!
 
-
-2. Hora de reescrever esse teste para passar (GREEN) - Em Simples.cs então devemos fazer do jeito mais simples possível!
+===========
+**2. Hora de reescrever esse teste para passar (GREEN) - Em Simples.cs então devemos fazer do jeito mais simples possível!**
 
 ```C#
     public static string GetValor(int input)
@@ -88,10 +92,10 @@ FALHOU! Acredite ou não então estamos no caminho certo!
         return "1"; // é o requisito mínimo
     }
 ```
-- PASSOU! Beleza!
+**PASSOU!** Beleza!
 
-
-3. Último Sinal do ciclo TDD. Agora sim poderemos refatorar para algo mais digno:
+===========
+**3. Último Sinal do ciclo TDD. Agora sim poderemos refatorar para algo mais digno:**
 
 ```C#
 	public static string GetValor(int input)
