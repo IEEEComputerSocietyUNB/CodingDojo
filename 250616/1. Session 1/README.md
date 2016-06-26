@@ -45,25 +45,25 @@ Estamos em Roma! Dados os números romanos:
 Já que não temos decimais ou int aqui, resolveremos operações com Strings.
 Existem algumas regras para a utilização dos números romanos:
 
-1. Numerais podem ser concatenados para formar um número maior
+- Numerais podem ser concatenados para formar um número maior
 
 ```
 "XX" + "II" = "XXII" ; "XIV" + "LX" = "LXXIV"
 ```
 
-2. Se um numeral menor é posto antes de um maior, significa que é a subtração do maior
+- Se um numeral menor é posto antes de um maior, significa que é a subtração do maior
 
 ```
 "IV" significa quatro, "CM" significa novecentos
 ```
 
-3. Se o numeral é I, X ou C você não pode ter mais de três
+- Se o numeral é I, X ou C você não pode ter mais de três
 
 ```
 "II" + "II" = "IV"
 ```
 
-4. Se o numeral é V, L ou D não é possível ter mais de um dele, pois:
+- Se o numeral é V, L ou D não é possível ter mais de um dele, pois:
 
 ```
 "D" + "D" = "M"
