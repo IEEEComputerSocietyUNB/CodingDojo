@@ -7,7 +7,9 @@ Exemplo Introdução
 #### Objetivos:
 - Abordagem introdutória à linguagem C# e ao TDD
 - Habituação com ferramentas (Visual Studio, NUnit e Testes)
+
 ===========
+
 #### Configurando:
 - Criar novo Projeto no Visual Studio (ExemploIntrodução)
   Básico Console Application - ignorar classes criadas automaticamente, pois testaremos uma classe
