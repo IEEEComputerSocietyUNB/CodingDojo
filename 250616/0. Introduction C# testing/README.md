@@ -3,12 +3,11 @@ Exemplo Introdução
 
 ### 25 - Junho - 2016
 
+===========
 #### Objetivos:
 - Abordagem introdutória à linguagem C# e ao TDD
 - Habituação com ferramentas (Visual Studio, NUnit e Testes)
-
 ===========
-
 #### Configurando:
 - Criar novo Projeto no Visual Studio (ExemploIntrodução)
   Básico Console Application - ignorar classes criadas automaticamente, pois testaremos uma classe
@@ -20,14 +19,12 @@ Exemplo Introdução
   * Usaremos o framework NUnit pois é focado em TDD *
 
 - Manter o TestExplorer aberto
-
 ===========
-
 #### Implementação:
 Em Simples-Teste.cs podemos modificar a classe para que se torne uma classe de testes:
 
 ```C#
-		[TestFixture]                     // atributo indica que a classe conterá testes
+    [TestFixture]                     // atributo indica que a classe conterá testes
     class Simples_Teste               // classe de testes
     {
         [Test]                        // indica um primeiro teste
@@ -114,6 +111,5 @@ public static string GetValor(int input)
     return input.ToString();
 }
 ```
-
 ===========
 #### FIM!
