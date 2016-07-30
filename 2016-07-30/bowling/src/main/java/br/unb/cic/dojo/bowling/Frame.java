@@ -1,6 +1,5 @@
 package br.unb.cic.dojo.bowling;
 
-import java.util.Arrays;
 
 public class Frame {
 	
@@ -36,7 +35,43 @@ public class Frame {
 	
 	@Override
 	public String toString() {
-		return Arrays.toString(rolagem);
+		String resultado = "[";
+
+		if (total == 10) {
+			if (idx == 1) { // Strike
+				resultado += "X";
+			}
+			else {
+				if (rolagem[0] == 0)
+					resultado += "-,/";
+				else
+					resultado += rolagem[0] +",/"; 
+			}
+		}
+		else {
+			for (int i = 0; i < 2; i++){
+				switch (rolagem[i]){
+				case -1:
+					resultado += "_";
+					break;
+				case 0:
+					resultado += "-";
+					break;
+				default:
+					resultado += rolagem[i];
+				}
+				if (i == 0) resultado += ",";
+			}
+		}
+		resultado += "]";
+		return resultado;
+	}
+
+	public int getTotal() {
+		if (isFull()){
+			return total;
+		}
+		return 0;
 	}
 
 

@@ -51,4 +51,67 @@ public class ExampleTest {
 		f.push(10);
 	}
 	
+	@Test
+	public void stringCorreta() {
+		jogadas = new int[]{1, 3, 4, 5, 6, 4, 10};
+		List<Frame> listaDeJogadas = Processador.processa(jogadas);
+		assertEquals("[[1,3], [4,5], [6,/], [X]]", 
+				     listaDeJogadas.toString());
+	}
+	
+	@Test
+	public void stringAguardandoRolagem(){
+		jogadas = new int[]{1, 3, 4, 5, 6};
+		List<Frame> listaDeJogadas = Processador.processa(jogadas);
+		assertEquals("[[1,3], [4,5], [6,_]]", 
+				     listaDeJogadas.toString());
+	
+	}
+	
+	@Test
+	public void stringZeroPontos(){
+		jogadas = new int[]{0, 0, 4, 5, 6};
+		List<Frame> listaDeJogadas = Processador.processa(jogadas);
+		assertEquals("[[-,-], [4,5], [6,_]]", 
+				     listaDeJogadas.toString());
+	
+	}
+	
+	@Test
+	public void stringZeroSpare(){
+		jogadas = new int[]{0, 10};
+		List<Frame> listaDeJogadas = Processador.processa(jogadas);
+		assertEquals("[[-,/]]", 
+				     listaDeJogadas.toString());
+	
+	}
+	
+	@Test
+	public void jogoVazioPontuacaoZero() {
+		jogadas = new int[0];
+		List<Frame> listaDeJogadas = Processador.processa(jogadas);
+		
+		assertEquals(0, Processador.calculaPontuacao(listaDeJogadas));
+	}
+	
+	@Test
+    public void pontuacaoSemStrikes() {
+		jogadas = new int[]{1, 3};
+		List<Frame> listaDeJogadas = Processador.processa(jogadas);
+		assertEquals(4, Processador.calculaPontuacao(listaDeJogadas));
+	}
+	
+	@Test
+    public void pontuacaoComSpare() {
+		jogadas = new int[]{1, 9, 4};
+		List<Frame> listaDeJogadas = Processador.processa(jogadas);
+		assertEquals(14, Processador.calculaPontuacao(listaDeJogadas));
+	}
+	
+	@Test 
+	public void pontuacaoSemJogoCompleto() {
+		jogadas = new int[] { 4 };
+		List<Frame> listaDeJogadas = Processador.processa(jogadas);
+		assertEquals(0, Processador.calculaPontuacao(listaDeJogadas));
+	}
 }

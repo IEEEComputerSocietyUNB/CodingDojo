@@ -28,6 +28,24 @@ public class Processador {
 		
 		return lista;
 	}
+	
+	public static int calculaPontuacao(List<Frame> jogo) {
+		int pontuacao = 0;
+		
+		for (int i = 0; i < jogo.size(); i++) {
+			Frame f = jogo.get(i);
+			if (f.getTotal() == 10) {
+				if (i<jogo.size()-1) {
+					Frame futureFrame = jogo.get(i+1);
+					pontuacao += futureFrame.get(0);
+				}
+			}
+			pontuacao += f.getTotal();
+			
+		}
+		return pontuacao;
+		
+	}
 
 }
 
