@@ -2,9 +2,9 @@
 
 Para rodar este projeto em Clojure, os softwares necessários foram:
 
-- [Clojure](clojure.org)
-- [Leiningen](leiningen.org)
-- [Lighttable](lighttable.com)
+- [Clojure](http://clojure.org)
+- [Leiningen](http://leiningen.org)
+- [Lighttable](http://lighttable.com)
 
 Introdução à linguagem Clojure
 ------------------------------
