@@ -6,7 +6,7 @@
 
 ## Sumário
 
-- [x] [Escolha linguagens preferencialmente de alto nível](#1)
+- [x] [Escolha linguagens, preferencialmente, de alto nível](#1)
 - [x] [Disponibilize conhecimento mínimo de sintaxe / semântica da linguagem de programação escolhida](#2)
 - [x] [Utilização obrigatória de ferramenta de testes, a qual fica a critério do mestre](#3)
 - [x] [Disponibilize conhecimento mínimo de sintaxe / semântica da ferramenta de testes da 
@@ -33,13 +33,13 @@ busque facilitar o exercício a ser resolvido.
 </a>
 
 <a name="2">
-###2 - Disponibilize conhecimento mínimo de sintaxe / semântica da linguagem de programação: </br>
+###2 - Disponibilize conhecimento mínimo de sintaxe / semântica da linguagem de programação escolhida: </br>
 
 Escolhida a linguagem de programação, é preciso disponibilizar um pacote mínimo de utilização da 
 linguagem que será utilizada na atividade. Dessa maneira, os participantes poderão focar mais em aplicar os conceitos de TDD e
 as boas práticas de programação gerais do que em descobrir como a linguagem funciona. :D
 	
-Em dojos passados, mestres já fizeram-se pacotes de apresentações das seguintes linguagens:
+Em dojos passados, mestres já fizeram pacotes de apresentações das seguintes linguagens:
 - [C#](250616/0. Introduction C%23 testing)
 - [Clojure (Lisp)](090716/doc/intro.md)
 
@@ -50,7 +50,7 @@ esteja faltando, procure completa-la para contribuir com o Dojo e deixar para os
 ## Testes: 
 
 <a name="3">
-###3 - Utilização obrigatória da ferramenta de testes: </br>
+###3 - Utilização obrigatória de ferramenta de testes, a qual fica a critério do mestre: </br>
 
 Para a prática do Test-Driven-Development será necessário utilizar alguma ferramenta para teste própria da 
 linguagem escolhida e fica a critério do mestre a escolha desta.
@@ -91,7 +91,7 @@ Caso haja boas práticas específicas da linguagem a ser usada, tente apresentá
 
 <a name="7">
 
-###7 - Prepare a atividade levando em consideração que o tempo para realizá-la será maior durante a dinâmica do que quando você a 		solucionou individualmente:</br>
+###7 - Prepare a atividade levando em consideração que o tempo para realizá-la será maior durante a dinâmica do que quando você a solucionou individualmente:</br>
 
 Cada sessão do dojo contém 1 hora e 30 minutos, mais 15 minutos de retrospectiva da sessão, sendo que o 
 desenvolvimento de algum exercício em cada sessão é feito rotativamente pelos participantes do dojo que 
