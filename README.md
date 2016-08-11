@@ -3,7 +3,7 @@
 
 Este repositório é composto dos códigos desenvolvidos na atividade de Test-Driven-Development (TDD) que o Coding Dojo da UnB realiza quinzenalmente no Laboratório de Informática (LInf) do Campus Darcy Ribeiro.
 
-## Padões de Organização
+## Padrões de Organização
 
 A cada edição da atividade de TDD é criado uma pasta para organizar os códigos gerados pelos participantes do dojo. Os arquivos de instruções que o mestre disponibiliza de acordo com a linguagem de programação e ferramenta de testes também estão disponíveis nessas pastas de acordo com o dia.
 
