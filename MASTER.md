@@ -6,20 +6,18 @@
 
 ## Sumário
 
-- [x] [Escolha linguagens preferencialmente de alto nível](#1)
-- [x] [Disponibilize conhecimento mínimo de sintaxe / semântica da linguagem de programação escolhida](#2)
-- [x] [Utilização obrigatória de ferramenta de testes, a qual fica a critério do mestre](#3)
-- [x] [Disponibilize conhecimento mínimo de sintaxe / semântica da ferramenta de testes da 
-      linguagem de programação](#4)
-- [x] [Utilize ferramenta de versionamento de código (Git)](#5)
-- [x] [Apresente sempre boas práticas de programação](#6)
-- [x] [Prepare a atividade levando em consideração que o tempo para realizá-la será maior durante a dinâmica do que quando você
-	a solucionou individualmente.](#7)
-- [x] [Dê preferência a exercícios metódicos](#8)
-- [x] [Procure exercícios com fácil resolução lógica](#9)
-- [x] [Faça uma descrição mínima do que será realizado no dia que irá mestrar](#10)
-- [x] [Sempre será feito o marketing do dojo com a linguagem de programação como "SURPRISE!"](#11)
-- [x] [O dojo é composto de 2 sessões, 2 retrospectivas e 1 intervalo](#12)
+ :heavy_check_mark: [Escolha linguagens preferencialmente de alto nível.](#1) </br>
+ :heavy_check_mark: [Disponibilize conhecimento mínimo de sintaxe / semântica da linguagem de programação escolhida.](#2) </br>
+ :heavy_check_mark: [Utilização obrigatória de ferramenta de testes, a qual fica a critério do mestre.](#3) </br>
+ :heavy_check_mark: [Disponibilize conhecimento mínimo de sintaxe / semântica da ferramenta de testes da linguagem de programação.](#4) </br>
+ :heavy_check_mark: [Utilize ferramenta de versionamento de código (Git).](#5) </br>
+ :heavy_check_mark: [Apresente sempre boas práticas de programação.](#6) </br>
+ :heavy_check_mark: [Prepare a atividade levando em consideração que o tempo para realizá-la será maior durante a dinâmica do que quando você a solucionou individualmente.](#7) </br>
+ :heavy_check_mark: [Dê preferência a exercícios metódicos.](#8) </br>
+ :heavy_check_mark: [Procure exercícios com fácil resolução lógica.](#9) </br>
+ :heavy_check_mark: [Faça uma descrição mínima do que será realizado no dia que irá mestrar.](#10) </br>
+ :heavy_check_mark: [Sempre será feito o marketing do dojo com a linguagem de programação como "SURPRISE!".](#11) </br>
+ :heavy_check_mark: [O dojo é composto de 2 sessões, 2 retrospectivas e 1 intervalo.](#12) </br>
 
 ## Linguagem de Programação: 
 
@@ -39,7 +37,7 @@ Escolhida a linguagem de programação, é preciso disponibilizar um pacote mín
 linguagem que será utilizada na atividade. Dessa maneira, os participantes poderão focar mais em aplicar os conceitos de TDD e
 as boas práticas de programação gerais do que em descobrir como a linguagem funciona. :D
 	
-Em dojos passados, mestres já fizeram-se pacotes de apresentações das seguintes linguagens:
+Em dojos passados, mestres já fizeram pacotes de apresentações das seguintes linguagens:
 - [C#](250616/0. Introduction C%23 testing)
 - [Clojure (Lisp)](090716/doc/intro.md)
 
@@ -124,7 +122,7 @@ dinâmica e não desmotivarem por qualquer outra questão.
 </a>
 
 <a name="11">
-###11 - Sempre será feito o marketing do dojo com a linguagem de programação como "SURPRISE!" : </br>
+###11 - Sempre será feito o marketing do dojo com a linguagem de programação como "SURPRISE!": </br>
 
 A linguagem de programação é só uma ferramenta que utilizamos para resolver problemas computacionais, portanto, 
 queremos evitar divulgar a linguagem que será utilizada para não possibilitar o desânimo dos participantes quando 
