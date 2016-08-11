@@ -7,14 +7,14 @@
 ## Sumário
 
 - [x] [Escolha linguagens preferencialmente de alto nível](#1)
-- [x] [Disponibilize algum conhecimento de sintaxe / semântica da linguagem de programação](#2)
-- [x] [Utilização obrigatória da ferramenta de testes](#3)
-- [x] [Disponibilize também algum conhecimento de sintaxe / semântica da ferramenta de testes da 
+- [x] [Disponibilize conhecimento mínimo de sintaxe / semântica da linguagem de programação escolhida](#2)
+- [x] [Utilização obrigatória de ferramenta de testes, a qual fica a critério do mestre](#3)
+- [x] [Disponibilize conhecimento mínimo de sintaxe / semântica da ferramenta de testes da 
       linguagem de programação](#4)
-- [x] [Utilize ferramenta de versionamento de código](#5)
+- [x] [Utilize ferramenta de versionamento de código (Git)](#5)
 - [x] [Apresente sempre boas práticas de programação](#6)
-- [x] [Prepare a atividade utilizando do fato que na realidade o grupo irá desenvolvê-lo com 50% 
-      a mais de tempo que você sozinha(o) iria desenvolver em 1hr e 30 min](#7)
+- [x] [Prepare a atividade levando em consideração que o tempo para realizá-la será maior durante a dinâmica do que quando você
+	a solucionou individualmente.](#7)
 - [x] [Dê preferência a exercícios metódicos](#8)
 - [x] [Procure exercícios com fácil resolução lógica](#9)
 - [x] [Faça uma descrição mínima do que será realizado no dia que irá mestrar](#10)
@@ -24,20 +24,22 @@
 ## Linguagem de Programação: 
 
 <a name="1">
-###1 - Escolha linguagens preferencialmente de alto nível: </br>
+###1 - Escolha linguagens, preferencialmente, de alto nível: </br>
 
 Pede-se que no dojo de TDD seja utilizado alguma linguagem de programação de preferência de alto nível, 
-pois, esta atividade é disponível para todos os níveis de programadores, para motivar / incentivar os 
-programadores novatos e enfatizar a dinâmica para os mais experientes.
+pois, esta atividade é disponível para todos os níveis de programadores, de maneira a motivar / incentivar os 
+programadores novatos e enfatizar a dinâmica para os mais experientes. Caso deseje usar uma linguagem mais complexa,
+busque facilitar o exercício a ser resolvido.
 </a>
 
 <a name="2">
-###2 - Disponibilize algum conhecimento de sintaxe / semântica da linguagem de programação: </br>
+###2 - Disponibilize conhecimento mínimo de sintaxe / semântica da linguagem de programação: </br>
 
-Escolhida a linguagem de programação, é preciso disponibilizar um pacote minimal de utilização da 
-linguagem que será utilizada na atividade.
+Escolhida a linguagem de programação, é preciso disponibilizar um pacote mínimo de utilização da 
+linguagem que será utilizada na atividade. Dessa maneira, os participantes poderão focar mais em aplicar os conceitos de TDD e
+as boas práticas de programação gerais do que em descobrir como a linguagem funciona. :D
 	
-Em dojos passados, mestres já fizeram pacotes de apresentações das seguintes linguagens:
+Em dojos passados, mestres já fizeram-se pacotes de apresentações das seguintes linguagens:
 - [C#](250616/0. Introduction C%23 testing)
 - [Clojure (Lisp)](090716/doc/intro.md)
 
@@ -55,20 +57,23 @@ linguagem escolhida e fica a critério do mestre a escolha desta.
 </a>	
 	
 <a name="4">
-###4 - Disponibilize também algum conhecimento de sintaxe / semântica da ferramenta de testes da linguagem de programação:</br>
+###4 - Disponibilize conhecimento mínimo de sintaxe / semântica da ferramenta de testes da linguagem de programação:</br>
 
-Assim como a linguagem de programação, também será necessário disponibilizar algum pacote minimal de utilização 
+Assim como a linguagem de programação, também será necessário disponibilizar algum pacote mínimo de utilização 
 da ferramenta para que seja possível a utilização da mesma por alguém que nunca tenha tido experiência.
 Em dojos passados, mestres já fizeram pacotes de apresentações das seguintes ferramentas de testes:
 	
 - [NUnit (C#)](250616/0. Introduction C%23 testing)
 - [Leiningen (Clojure)](090716/doc/intro.md)
+
+Caso escolha alguma dessas ferramentas, favor utilizar a mesma ou caso confira que alguma informação 
+esteja faltando, procure completa-la para contribuir com o Dojo e deixar para os próximos mestres.
 </a>
 
 ## Boas Práticas:
 
 <a name="5">
-###5 - Utilize ferramenta de versionamento de código:</br>
+###5 - Utilize ferramenta de versionamento de código (Git):</br>
 
 De preferência é recomendado o uso do Git como ferramenta de versionamento.
 </a>
@@ -78,12 +83,15 @@ De preferência é recomendado o uso do Git como ferramenta de versionamento.
 
 Padrões de codificação como [CamelCase](https://en.wikipedia.org/wiki/CamelCase) em nomes de variável, funções, nomes dos testes são boas práticas que 
 queremos passar para os participantes do Dojo, logo, tente estimular o uso de boas práticas de programação.
+
+Caso haja boas práticas específicas da linguagem a ser usada, tente apresentá-las na apresentação da linguagem e durante a sessão.
 </a>
 
 ## Desafios:
 
 <a name="7">
-###7 - Prepare a atividade utilizando do fato que na realidade o grupo irá desenvolvê-lo com 50% a mais de tempo que você sozinha(o) iria desenvolver em 1hr e 30 min:</br>
+
+###7 - Prepare a atividade levando em consideração que o tempo para realizá-la será maior durante a dinâmica do que quando você a 		solucionou individualmente:</br>
 
 Cada sessão do dojo contém 1 hora e 30 minutos, mais 15 minutos de retrospectiva da sessão, sendo que o 
 desenvolvimento de algum exercício em cada sessão é feito rotativamente pelos participantes do dojo que 
@@ -137,5 +145,3 @@ da atividade no dia.
 ## Contato
 
 Para maiores dúvidas não deixe de entrar em contato com os organizadores do projeto @Dayof e @GabrielFritz !! 
-
-
