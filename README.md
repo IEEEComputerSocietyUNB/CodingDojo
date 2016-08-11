@@ -34,6 +34,6 @@ Exemplo:
   - Dayanne Fernandes da Cunha
     - E-mail: dayannefernandesc@gmail.com
     - GitHub: [Dayof](https://github.com/Dayof)
-  - Gabriel Fritz Sluzara
+  - Gabriel Fritz Sluzala
     - E-mail: gabrielfritzsluzala@gmail.com
     - GitHub: [GabrielFritz](https://github.com/GabrielFritz)
