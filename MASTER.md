@@ -18,6 +18,7 @@
  :heavy_check_mark: [Faça uma descrição mínima do que será realizado no dia que irá mestrar.](#10) </br>
  :heavy_check_mark: [Sempre será feito o marketing do dojo com a linguagem de programação como "SURPRISE!".](#11) </br>
  :heavy_check_mark: [O dojo é composto de 2 sessões, 2 retrospectivas e 1 intervalo.](#12) </br>
+ :heavy_check_mark: [Após mestrar por 3 vezes, a Computer Society UnB irá emitir certificado de participação.](#13) </br>
 
 ## Linguagem de Programação: 
 
@@ -140,6 +141,12 @@ os pontos positivos, negativos e é aberto para os participantes sugerirem melho
 da atividade no dia.
 </a>
 
+<a name="13">
+###13 - Após mestrar por 3 vezes, a [Computer Society UnB](https://www.facebook.com/IEEEComputerSocietyUnB) irá emitir certificado de participação: </br>
+
+Todos os participantes do Coding Dojo da UnB ganham certificado depois de uma determinada carga horária de participação nas atividades, tanto os mestres como os alunos. Os alunos ganham certificado após 1 trimestre de frequência da atividade de TDD e os mestres após 3 vezes puxando a atividade. O certificado é emitido pelo [Ramo Estudantil da Computer Society da UnB](https://www.facebook.com/IEEEComputerSocietyUnB).
+</a>
+
 ## Contato
 
-Para maiores dúvidas não deixe de entrar em contato com os organizadores do projeto @Dayof e @GabrielFritz !! 
+Para maiores dúvidas não deixe de entrar em contato com os organizadores do projeto [Dayof](https://github.com/Dayof) e [GabrielFritz](https://github.com/GabrielFritz) !! 
