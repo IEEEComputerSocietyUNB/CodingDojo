@@ -1,0 +1,8 @@
+{%for post in posts%}
+    <div>
+        <h1>{{post.title}}</h1>
+        <p>{{post.text}}</p>
+        <p>Author: {{post.author}}</p>
+        <p>Creation date: {{post.creation_date}}</p>
+    </div>
+{%endfor%}
