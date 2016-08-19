@@ -1,3 +1,5 @@
+## Retrospectiva
+
 :)  
 - uso de python
 - incentiva a procurar sobre o FW
