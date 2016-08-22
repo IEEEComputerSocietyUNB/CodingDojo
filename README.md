@@ -16,7 +16,7 @@ ANOMESDIA
 Exemplo:
 
 ```
-160619 - Sendo 16 o ano, 06 o mês e 18 o dia.
+160618 - Sendo 16 o ano, 06 o mês e 18 o dia.
 ```
 
 ## Pastas organizadas por edições
