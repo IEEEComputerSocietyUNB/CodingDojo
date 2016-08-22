@@ -16,17 +16,18 @@ DIAMÊSANO
 Exemplo:
 
 ```
-180616 - Sendo 18 o dia, 06 o mês e 16 o ano.
+160619 - Sendo 16 o ano, 06 o mês e 18 o dia.
 ```
 
 ## Pastas organizadas por edições
 
 | Edições            | Linguagem de Programação | Ferramenta de Teste |
 | ------------------ | ------------------------ | ------------------- |
-| [Edição 1](180616) | Python 2.7               | Unittest            | 
-| [Edição 2](250616) | C#                       | NUnit               | 
-| [Edição 3](090716) | Clojure (Lisp)           | Leiningen           |  	
-| [Edição 6](300716) | Java                     | JUnit 4.12           | 
+| [Edição 1](160618) | Python 2.7               | Unittest            | 
+| [Edição 2](160625) | C#                       | NUnit               | 
+| [Edição 3](160709) | Clojure (Lisp)           | Leiningen           |  	
+| [Edição 6](160730) | Java                     | JUnit 4.12          | 
+| [Edição 8](160813) | Python 3.5               | TestCase (Django)   | 
 
 ## Equipe responsável
 
