@@ -10,7 +10,7 @@ A cada edição da atividade de TDD é criado uma pasta para organizar os códig
 O padrão de nome da pasta é feito por :
 
 ```
-DIAMÊSANO
+ANOMESDIA
 ```
 
 Exemplo:
