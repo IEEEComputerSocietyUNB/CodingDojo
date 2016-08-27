@@ -1,0 +1,2 @@
+
+def contaGenoma(sequence: String): Map[Char, Int] = sequence.toUpperCase.toList.filter(x => Set('A','C','G','T').exists(_ == x)).foldLeft(Map.empty[Char,Int])( (map, letter) => { map + (letter -> (map.getOrElse(letter, 0) + 1))})
