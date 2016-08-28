@@ -1,1 +1,13 @@
 .DS_Store
+.cache-main
+.classpath
+.project
+.settings/
+*.bak
+*.out
+*.log
+*~
+*.iml
+*.ipr
+*.swp
+bin
