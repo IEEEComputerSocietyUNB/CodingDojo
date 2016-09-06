@@ -136,4 +136,4 @@ love nome_do_jogo.love
 Referências
 -----------
 
-+ https://love2d.org/wiki/love
++ https://love2d.org/wiki/Main_Page
