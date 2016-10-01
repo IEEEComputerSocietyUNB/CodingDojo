@@ -13,12 +13,11 @@ function love.load()
     they.img = love.graphics.newImage("art/invader.png")
     they.x = 100
     they.y = 100
-
 end
 
 function love.update()
     agora = love.timer.getTime() - relogio
-
+	
     -- Atualizando o personagem
     if love.keyboard.isDown("right") then
         me.x = me.x + 5
@@ -45,4 +44,8 @@ function love.draw()
 
     -- Desenhando o ambiente
      love.graphics.draw(they.img, they.x, they.y, 0, 1, 1)
+
+     -- Desenhando um quadradinho
+     love.graphics.setColor(255, 150, 150)
+     love.graphics.rectangle("fill", 300, 350, 30, 40)
 end
