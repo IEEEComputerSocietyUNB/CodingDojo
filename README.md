@@ -23,11 +23,13 @@ Exemplo:
 
 | Edições            | Linguagem de Programação | Ferramenta de Teste |
 | ------------------ | ------------------------ | ------------------- |
-| [Edição 1](160618) | Python 2.7               | Unittest            | 
-| [Edição 2](160625) | C#                       | NUnit               | 
-| [Edição 3](160709) | Clojure (Lisp)           | Leiningen           |  	
-| [Edição 6](160730) | Java                     | JUnit 4.12          | 
-| [Edição 8](160813) | Python 3.5               | TestCase (Django)   | 
+| [Edição 01](160618) | Python 2.7              | Unittest            | 
+| [Edição 02](160625) | C#                      | NUnit               | 
+| [Edição 03](160709) | Clojure (Lisp)          | Leiningen           |  	
+| [Edição 06](160730) | Java                    | JUnit 4.12          | 
+| [Edição 08](160813) | Python 3.5              | TestCase (Django)   | 
+| [Edição 09](160827) | Scala                   | JUnit               | 
+| [Edição 10](161001) | Lua                     | Love2D              | 
 
 ## Equipe responsável
 
