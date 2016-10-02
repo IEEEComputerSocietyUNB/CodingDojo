@@ -25,11 +25,11 @@ Exemplo:
 | ------------------ | ------------------------ | ------------------- |
 | [Edição 01](160618) | Python 2.7              | Unittest            | 
 | [Edição 02](160625) | C#                      | NUnit               | 
-| [Edição 03](160709) | Clojure | Lisp          | Leiningen           |  	
+| [Edição 03](160709) | Clojure (Lisp)          | Leiningen           |  	
 | [Edição 06](160730) | Java                    | JUnit 4.12          | 
-| [Edição 08](160813) | Python 3.5 | Django     | TestCase            | 
+| [Edição 08](160813) | Python 3.5 (Django)     | TestCase            | 
 | [Edição 09](160827) | Scala                   | JUnit               | 
-| [Edição 10](161001) | Lua | Love2D            |                     | 
+| [Edição 10](161001) | Lua (Love2D)            |                     | 
 
 ## Equipe responsável
 
