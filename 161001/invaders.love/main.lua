@@ -1,21 +1,24 @@
 ------------------- FUNÇÕES BÁSICAS
 -- Executa apenas uma vez
 function love.load()
-    nave = criarNave ();
+	local joysticks = love.joystick.getJoysticks()
+	joystick = joysticks[1]
 
-    aliens = criarAliens (5);
+	nave = criarNave ();
 
-    tiros = criarTiros ();
+	aliens = criarAliens (5);
 
-    deslocamento = criarDeslocamentos ();
+	tiros = criarTiros ();
 
-    tempoBase = 0;
+	deslocamento = criarDeslocamentos ();
+
+	tempoBase = 0;
 end
 
 -- Executa enquanto a janela estiver aberta,
 -- reservada para a atualização dos dados
-function love.update()
-    atualizarNave ();
+function love.update(dt)
+    atualizarNave (dt);
 
     atualizarSaida ();
 
@@ -57,7 +60,7 @@ end
 function criaAlien(qnt)
 	local novoAlien = {};
 
-    novoAlien.x = 100 * qnt;
+  novoAlien.x = 100 * qnt;
 	novoAlien.y = 100;
 
 	return novoAlien;
@@ -81,7 +84,7 @@ end
 function criarTiro()
 	local novoTiro = {};
 
-    novoTiro.x = nave.x;
+  novoTiro.x = nave.x;
 	novoTiro.y = nave.y;
 
 	return novoTiro;
@@ -104,16 +107,17 @@ end
 function criarDeslocamentos ()
     local novoDeslocamento = {};
 
-    novoDeslocamento.nave = 1;
+    novoDeslocamento.nave = 5;
     novoDeslocamento.alien = .2;
     novoDeslocamento.tiro = 12;
+		novoDeslocamento.naveJoystick = 300;
 
     return novoDeslocamento;
 end
 
 ------------------- FUNÇÕES DE ATUALIZAÇÃO
 -- Atualiza o estado da nave
-function atualizarNave ()
+function atualizarNave (dt)
     -- Para a esquerda
 	if love.keyboard.isDown('a') then
 		if nave.x > 0 then
@@ -126,11 +130,38 @@ function atualizarNave ()
 			nave.x = nave.x + deslocamento.nave;
 		end
 	end
+
+	if joystick then
+		--movimento da nave
+		if joystick:isGamepadDown("dpleft") then
+			if nave.x > 0 then
+				nave.x = nave.x - deslocamento.naveJoystick * dt
+			end
+		elseif joystick:isGamepadDown("dpright") then
+			if nave.x < 583 then
+				nave.x = nave.x + deslocamento.naveJoystick * dt
+			end
+		end
+
+		if joystick:isGamepadDown("dpup") then
+			if nave.y > 1 then
+				nave.y = nave.y - deslocamento.naveJoystick * dt
+			end
+		elseif joystick:isGamepadDown("dpdown") then
+			if nave.y < 383 then
+				nave.y = nave.y + deslocamento.naveJoystick * dt
+			end
+		end
+	end
 end
 
 -- Atualizar o estado da aplicação
 function atualizarSaida ()
 	if love.keyboard.isDown('escape') then
+		love.event.quit();
+	end
+
+	if (joystick and joystick:isGamepadDown("back")) then
 		love.event.quit();
 	end
 end
@@ -139,8 +170,13 @@ end
 function atualizarTiros ()
     if (love.keyboard.isDown('k') and (tempoBase == 0)) then
         love.audio.play (tiros.som);
-		table.insert(tiros.tiro, criarTiro());
-	end
+				table.insert(tiros.tiro, criarTiro());
+		end
+
+		if (joystick and joystick:isGamepadDown("b") and (tempoBase == 0)) then
+			love.audio.play (tiros.som);
+			table.insert(tiros.tiro, criarTiro());
+		end
 
     -- Atualizando posição
     atualizarPosicaoTiros ();
@@ -179,7 +215,6 @@ function recarregarArma ()
         tempoBase = 0;
     end
 end
-
 
 -- Comparação de dois objetos, se ocupam o mesmo espaço
 function compara (objeto1, objeto2)
