@@ -149,4 +149,4 @@ Todos os participantes do Coding Dojo da UnB ganham certificado depois de uma de
 
 ## Contato
 
-Para maiores dúvidas não deixe de entrar em contato com os organizadores do projeto [Dayof](https://github.com/Dayof) e [GabrielFritz](https://github.com/GabrielFritz) !! 
+Para maiores dúvidas não deixe de entrar em contato com os organizadores do projeto [Dayof](https://github.com/Dayof) e [Cris Silva Jr.](https://github.com/ishiikurisu) !! 
