@@ -1,15 +1,14 @@
-------------------- FUNÇÕES BÁSICAS
+	------------------- FUNÇÕES BÁSICAS
 -- Executa apenas uma vez
 function love.load()
 	local joysticks = love.joystick.getJoysticks()
-	joystick = joysticks[1]
+	playerOne = joysticks[1]
+	playerTwo = joysticks[2]
 
-	nave = criarNave ();
-
+	nave = criarNave (200, 350);
+	nave2 = criarNave(400, 350);
 	aliens = criarAliens (5);
-
 	tiros = criarTiros ();
-
 	deslocamento = criarDeslocamentos ();
 
 	tempoBase = 0;
@@ -31,12 +30,17 @@ end
 -- reservada para o desenho em tela
 function love.draw()
     -- Desenhando a nave
-    love.graphics.draw (nave.imagem, nave.x, nave.y, 0, 1, 1);
+		if nave then
+    	love.graphics.draw (nave.imagem, nave.x, nave.y, 0, 1, 1);
+		end
+		if nave2 then
+			love.graphics.draw (nave2.imagem, nave2.x, nave2.y, 0, 1, 1);
+		end
 
     -- Desenhando os aliens
     for ind, alienaux in pairs(aliens.alien) do
-		love.graphics.draw(aliens.imagem, alienaux.x, alienaux.y, 0, 1, 1);
-	end
+			love.graphics.draw(aliens.imagem, alienaux.x, alienaux.y, 0, 1, 1);
+		end
 
     --  Desenhando os tiros
     for i, tiroaux in pairs(tiros.tiro) do
@@ -46,12 +50,12 @@ end
 
 ------------------- FUNÇÕES DE CRIAÇÃO
 -- Criação de uma nova nave
-function criarNave ()
+function criarNave (x, y)
     local novaNave = {};
 
     novaNave.imagem = love.graphics.newImage ('art/spacer.png');
-    novaNave.x = 300;
-    novaNave.y = 350;
+    novaNave.x = x;
+    novaNave.y = y;
 
     return novaNave;
 end
@@ -81,11 +85,11 @@ function criarAliens (qnt)
 end
 
 -- Criação de um novo tiro
-function criarTiro()
+function criarTiro(x, y)
 	local novoTiro = {};
 
-  novoTiro.x = nave.x;
-	novoTiro.y = nave.y;
+  novoTiro.x = x;
+	novoTiro.y = y - 5;
 
 	return novoTiro;
 end
@@ -131,28 +135,52 @@ function atualizarNave (dt)
 		end
 	end
 
-	if joystick then
+	if playerOne and nave then
 		--movimento da nave
-		if joystick:isGamepadDown("dpleft") then
+		if playerOne:isGamepadDown("dpleft") then
 			if nave.x > 0 then
 				nave.x = nave.x - deslocamento.naveJoystick * dt
 			end
-		elseif joystick:isGamepadDown("dpright") then
+		elseif playerOne:isGamepadDown("dpright") then
 			if nave.x < 583 then
 				nave.x = nave.x + deslocamento.naveJoystick * dt
 			end
 		end
 
-		if joystick:isGamepadDown("dpup") then
+		if playerOne:isGamepadDown("dpup") then
 			if nave.y > 1 then
 				nave.y = nave.y - deslocamento.naveJoystick * dt
 			end
-		elseif joystick:isGamepadDown("dpdown") then
+		elseif playerOne:isGamepadDown("dpdown") then
 			if nave.y < 383 then
 				nave.y = nave.y + deslocamento.naveJoystick * dt
 			end
 		end
 	end
+
+	if playerTwo and nave2 then
+		--movimento da nave
+		if playerTwo:isGamepadDown("dpleft") then
+			if nave2.x > 0 then
+				nave2.x = nave2.x - deslocamento.naveJoystick * dt
+			end
+		elseif playerTwo:isGamepadDown("dpright") then
+			if nave2.x < 583 then
+				nave2.x = nave2.x + deslocamento.naveJoystick * dt
+			end
+		end
+
+		if playerTwo:isGamepadDown("dpup") then
+			if nave2.y > 1 then
+				nave2.y = nave2.y - deslocamento.naveJoystick * dt
+			end
+		elseif playerTwo:isGamepadDown("dpdown") then
+			if nave2.y < 383 then
+				nave2.y = nave2.y + deslocamento.naveJoystick * dt
+			end
+		end
+	end
+
 end
 
 -- Atualizar o estado da aplicação
@@ -161,7 +189,7 @@ function atualizarSaida ()
 		love.event.quit();
 	end
 
-	if (joystick and joystick:isGamepadDown("back")) then
+	if (playerOne and playerOne:isGamepadDown("back")) then
 		love.event.quit();
 	end
 end
@@ -170,14 +198,18 @@ end
 function atualizarTiros ()
     if (love.keyboard.isDown('k') and (tempoBase == 0)) then
         love.audio.play (tiros.som);
-				table.insert(tiros.tiro, criarTiro());
+				table.insert(tiros.tiro, criarTiro(nave.x, nave.y));
 		end
 
-		if (joystick and joystick:isGamepadDown("b") and (tempoBase == 0)) then
+		if (playerOne and playerOne:isGamepadDown("b") and (tempoBase == 0)) then
 			love.audio.play (tiros.som);
-			table.insert(tiros.tiro, criarTiro());
+			table.insert(tiros.tiro, criarTiro(nave.x, nave.y));
 		end
 
+		if (playerTwo and playerTwo:isGamepadDown("b") and (tempoBase == 0)) then
+			love.audio.play (tiros.som);
+			table.insert(tiros.tiro, criarTiro(nave2.x, nave2.y));
+		end
     -- Atualizando posição
     atualizarPosicaoTiros ();
 
@@ -204,6 +236,16 @@ function atualizarPosicaoTiros ()
                 aliens.alien[j] = nil;
             end
         end
+
+				if nave2 and compara(tiroaux, nave2) then
+						tiros.tiro[i] = nil;
+						nave2 = nil;
+				end
+
+				if nave and compara(tiroaux, nave) then
+						tiros.tiro[i] = nil;
+						nave = nil;
+				end
     end
 end
 
