@@ -40,3 +40,6 @@ Exemplo:
   - Cristiano Silva Jr. 
     - E-mail: cristianoalvesjr@gmail.com ou cristiano.a.junior@ieee.org
     - GitHub: [ishiikurisu](https://github.com/ishiikurisu)
+  - Yurick Hauschild C. da Costa
+    - E-mail: yurick.hauschild@gmail.com
+    - GitHub: [Yurickh](https://github.com/Yurickh)
