@@ -39,8 +39,8 @@ linguagem que será utilizada na atividade. Dessa maneira, os participantes pode
 as boas práticas de programação gerais do que em descobrir como a linguagem funciona. :D
 	
 Em dojos passados, mestres já fizeram pacotes de apresentações das seguintes linguagens:
-- [C#](250616/0. Introduction C%23 testing)
-- [Clojure (Lisp)](090716/doc/intro.md)
+- [C#](https://github.com/ComputerSocietyUNB/TDD/blob/master/160625/0.%20Introduction%20C%23%20testing/README.md)
+- [Clojure (Lisp)](https://github.com/ComputerSocietyUNB/TDD/blob/master/160709/doc/intro.md)
 
 Caso escolha alguma dessas linguagens acima, favor utilizar a mesma ou caso confira que alguma informação 
 esteja faltando, procure completa-la para contribuir com o Dojo e deixar para os próximos mestres.
@@ -62,8 +62,8 @@ Assim como a linguagem de programação, também será necessário disponibiliza
 da ferramenta para que seja possível a utilização da mesma por alguém que nunca tenha tido experiência.
 Em dojos passados, mestres já fizeram pacotes de apresentações das seguintes ferramentas de testes:
 	
-- [NUnit (C#)](250616/0. Introduction C%23 testing)
-- [Leiningen (Clojure)](090716/doc/intro.md)
+- [NUnit (C#)](https://github.com/ComputerSocietyUNB/TDD/blob/master/160625/0.%20Introduction%20C%23%20testing/README.md)
+- [Leiningen (Clojure)](https://github.com/ComputerSocietyUNB/TDD/blob/master/160709/doc/intro.md)
 
 Caso escolha alguma dessas ferramentas, favor utilizar a mesma ou caso confira que alguma informação 
 esteja faltando, procure completa-la para contribuir com o Dojo e deixar para os próximos mestres.
