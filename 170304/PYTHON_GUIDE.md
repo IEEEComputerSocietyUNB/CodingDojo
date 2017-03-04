@@ -5,8 +5,8 @@
 ### Variáveis
 
 ```
-any_var = 3 #
-any_var = 'something'
+any_var = 3 # números
+any_var = 'something' # strings
 ```
 
 ### Manipulação de strings
@@ -69,12 +69,12 @@ list[2:] # Omite até o segundo valor da tupla (retorna uma tupla)
 ### Funções/métodos
 
 ```
-def bestFunctionEver(var + var2): # Declara função com 2 parâmetros
+def bestFunctionEver(var, var2): # Declara função com 2 parâmetros
   return var + var2 # Retorno da função
 
 bestFunctionEver(3, 4) # Chama função com 2 parâmetros
 
-func = lambda name : 'Some anonymous function called ' + x # declara função anônima
+func = lambda name: 'Some anonymous function called ' + x # declara função anônima
 func('anonymous') # chama função anônima
 ```
 
@@ -113,8 +113,8 @@ for key, value in some_dict.items(): # for sobre dicionários
 for i in range(4): # itera de 0 a 3
   print(i)
 
-  for i in range(2, 4): # itera de 2 a 3
-    print(i)
+for i in range(2, 4): # itera de 2 a 3
+  print(i)    
 
 [i for i in range(2, 4) if i < 3] # List comprehensions: Retorna 2
 ```
@@ -169,7 +169,7 @@ assertFalse(1 > 2)
 python3 -m unittest test.py
 ```
 
-Se tiver o código abaixo no arquivo teste executar normalmente como código python.
+Se o código abaixo estiver presente no arquivo teste, executar normalmente como código python.
 
 ```
 if __name__ == '__main__':
