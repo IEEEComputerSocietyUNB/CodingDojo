@@ -74,7 +74,8 @@ def bestFunctionEver(var, var2): # Declara função com 2 parâmetros
 
 bestFunctionEver(3, 4) # Chama função com 2 parâmetros
 
-func = lambda name: 'Some anonymous function called ' + x # declara função anônima
+# declara função anônima
+func = lambda name: 'Some anonymous function called ' + name
 func('anonymous') # chama função anônima
 ```
 
