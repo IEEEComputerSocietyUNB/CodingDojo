@@ -6,13 +6,12 @@ O Coding Dojo foi feito na linguagem Python 3.0 utilizando unittest como framewo
 
 The Good :smiley::
 
-The Bad :worried::
-
-##### Retrospectiva 2 :
-
-The Good :smiley::
+- Todo mundo codou!
 
 The Bad :worried::
+
+- Nada de ruim.
+
 
 ## Boliche
 

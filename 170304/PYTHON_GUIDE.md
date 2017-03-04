@@ -36,7 +36,7 @@ list.pop() # retira o último item da lista
 3 in list # confere se o valor 3 existe na lista
 list.index(3) # coleta o índice do primeiro valor encontrado           
               # na lista ou lança excessão
-list[0] # Procura o valor no índice 0 da lista
+list[1] # Procura o valor no índice 0 da lista
 list[-1] # Procura o valor no último índice da lista
 list[1:] # Omite o primeiro valor da lista
 ```
