@@ -30,6 +30,8 @@ Exemplo:
 | [Edição 08](160813) | Python 3.5 (Django)     | TestCase            | 
 | [Edição 09](160827) | Scala                   | JUnit               | 
 | [Edição 10](161001) | Lua (Love2D)            |                     | 
+| [Edição 11](170225) | C#                      | NUnit 3.6.0         | 
+| [Edição 12](170304) | Python 3                | Unittest            | 
 
 ## Equipe responsável
 
