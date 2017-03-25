@@ -1,0 +1,16 @@
+{
+  "name": "Bora Bahea",
+  "version": "0.0.0",
+  "private": true,
+
+  "author": "bbmp",
+
+  "description": "A simple helpful robot for your Company",
+
+  "dependencies": {
+  },
+
+  "engines": {
+    "node": "0.10.x"
+  }
+}
