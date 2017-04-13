@@ -1,7 +1,7 @@
 # Coding Dojo
 ## (Universidade de Brasília | UnB)
 
-Este repositório é composto dos códigos desenvolvidos na atividade de Test-Driven-Development (TDD) que o Coding Dojo da UnB realiza quinzenalmente no Laboratório de Informática (LInf) do Campus Darcy Ribeiro.
+Este repositório é composto dos códigos desenvolvidos nas atividades que o Coding Dojo da UnB realiza mensalmente no Laboratório de Informática (LInf) do Campus Darcy Ribeiro.
 
 ## Padrões de Organização
 
@@ -33,6 +33,7 @@ Exemplo:
 | [Edição 11](170225) | C#                      | NUnit 3.6.0         |
 | [Edição 12](170304) | Python 3                | Unittest            |
 | [Edição 13](170325) | Gitlab-CI               |                     |
+
 ## Equipe responsável
 
 - Gerentes do projeto :
@@ -42,6 +43,6 @@ Exemplo:
   - Cristiano Silva Jr.
     - E-mail: cristianoalvesjr@gmail.com ou cristiano.a.junior@ieee.org
     - GitHub: [ishiikurisu](https://github.com/ishiikurisu)
-  - Yurick Hauschild C. da Costa
-    - E-mail: yurick.hauschild@gmail.com
-    - GitHub: [Yurickh](https://github.com/Yurickh)
+  - Talitha Pumar Antunes
+    - E-mail: tapumar@gmail.com
+    - GitHub: [tapumar](https://github.com/tapumar)
