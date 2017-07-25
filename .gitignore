@@ -11,3 +11,4 @@
 *.ipr
 *.swp
 bin
+*pyc
