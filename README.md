@@ -1,7 +1,7 @@
 # Coding Dojo
 ## (Universidade de Brasília | UnB)
 
-Este repositório é composto dos códigos desenvolvidos nas atividades que o Coding Dojo da UnB realiza mensalmente no Laboratório de Informática (LInf) do Campus Darcy Ribeiro.
+Este repositório é composto por códigos desenvolvidos nas atividades que o Coding Dojo da Universidade de Brasília promove mensalmente no Campus Darcy Ribeiro.
 
 ## Padrões de Organização
 
