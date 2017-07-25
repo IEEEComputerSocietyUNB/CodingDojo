@@ -26,13 +26,14 @@ Exemplo:
 | [Edição 01](160618) | Python 2.7              | Unittest            |
 | [Edição 02](160625) | C#                      | NUnit               |
 | [Edição 03](160709) | Clojure (Lisp)          | Leiningen           |  	
-| [Edição 06](160730) | Java                    | JUnit 4.12          |
-| [Edição 08](160813) | Python 3.5 (Django)     | TestCase            |
-| [Edição 09](160827) | Scala                   | JUnit               |
-| [Edição 10](161001) | Lua (Love2D)            |                     |
-| [Edição 11](170225) | C#                      | NUnit 3.6.0         |
-| [Edição 12](170304) | Python 3                | Unittest            |
-| [Edição 13](170325) | Gitlab-CI               |                     |
+| [Edição 04](160730) | Java                    | JUnit 4.12          |
+| [Edição 05](160813) | Python 3.5 (Django)     | TestCase            |
+| [Edição 06](160827) | Scala                   | JUnit               |
+| [Edição 07](161001) | Lua (Love2D)            |                     |
+| [Edição 08](170225) | C#                      | NUnit 3.6.0         |
+| [Edição 09](170304) | Python 3                | Unittest            |
+| [Edição 10](170325) | Gitlab-CI               |                     |
+| [Edição 11](170722) | Python 3.5              | Pytest              |
 
 ## Equipe responsável
 
