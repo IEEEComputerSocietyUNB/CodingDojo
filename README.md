@@ -23,17 +23,17 @@ Exemplo:
 
 | Edições            | Linguagem de Programação | Ferramenta de Teste |
 | ------------------ | ------------------------ | ------------------- |
-| [Edição 01](160618) | Python 2.7              | Unittest            |
-| [Edição 02](160625) | C#                      | NUnit               |
-| [Edição 03](160709) | Clojure (Lisp)          | Leiningen           |  	
-| [Edição 04](160730) | Java                    | JUnit 4.12          |
-| [Edição 05](160813) | Python 3.5 (Django)     | TestCase            |
-| [Edição 06](160827) | Scala                   | JUnit               |
-| [Edição 07](161001) | Lua (Love2D)            |                     |
-| [Edição 08](170225) | C#                      | NUnit 3.6.0         |
-| [Edição 09](170304) | Python 3                | Unittest            |
-| [Edição 10](170325) | Gitlab-CI               |                     |
-| [Edição 11](170722) | Python 3.5              | Pytest              |
+| [Edição 01](2016/160618) | Python 2.7              | Unittest            |
+| [Edição 02](2016/160625) | C#                      | NUnit               |
+| [Edição 03](2016/160709) | Clojure (Lisp)          | Leiningen           |  	
+| [Edição 04](2016/160730) | Java                    | JUnit 4.12          |
+| [Edição 05](2016/160813) | Python 3.5 (Django)     | TestCase            |
+| [Edição 06](2016/160827) | Scala                   | JUnit               |
+| [Edição 07](2016/161001) | Lua (Love2D)            |                     |
+| [Edição 08](2017/170225) | C#                      | NUnit 3.6.0         |
+| [Edição 09](2017/170304) | Python 3                | Unittest            |
+| [Edição 10](2017/170325) | Gitlab-CI               |                     |
+| [Edição 11](2017/170722) | Python 3.5              | Pytest              |
 
 ## Equipe responsável
 
