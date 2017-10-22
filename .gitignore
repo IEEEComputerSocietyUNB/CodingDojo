@@ -1,4 +1,12 @@
+# Mac files
 .DS_Store
+
+# Python files
+*pyc
+venv/
+env/
+
+# Others
 .cache-main
 .classpath
 .project
@@ -11,4 +19,3 @@
 *.ipr
 *.swp
 bin
-*pyc
