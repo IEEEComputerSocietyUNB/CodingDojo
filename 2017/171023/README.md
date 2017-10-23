@@ -73,14 +73,16 @@ The Bad :worried::
 - SOCORRO `KeyError`
 - Nem todos codaram.
 
-Sugestao:
+Sugestão:
 - Guia para os erros ficou faltando.
 
 ### Sessão 2
 The good :smiley::
-- ???
+- Todo mundo codou!
+- Terminamos dois sprints.
+- Aprendemos boas práticas de programação e dicionários.
 
 The Bad :worried::
-- ???
+- NADA
 
 [1]: https://www.hackerrank.com/challenges/the-time-in-words
