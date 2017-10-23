@@ -1,17 +1,17 @@
 # Python Guide
 
-## Introdução básica da linguagem Python 3.0:
+## Introdução básica da linguagem Python 3:
 
 ### Variáveis
 
-```
+``` python
 any_var = 3 # números
 any_var = 'something' # strings
 ```
 
 ### Manipulação de strings
 
-```
+``` python
 string_input = input('Enter some string')
 print('Pair programming is %s', % ('awesome'))
 '{1} is {0}'.format('awesome!', 'Dojo')
@@ -23,7 +23,7 @@ len('ODD')
 
 - Listas
 
-```
+``` python
 list = [0, 3] # define lista
 
 list + other_list # concatena
@@ -43,7 +43,7 @@ list[1:] # Omite o primeiro valor da lista
 
 - Dicionários
 
-```
+``` python
 dict = {'one' : 2, 'two': 1, 'four': 5} # define um dicionário
 
 dict['one'] # Procura o valor da chave 'one'
@@ -54,7 +54,7 @@ dict.items() # coleta o dicionário em formato de lista de tuplas dos valores
 
 - Tuplas
 
-```
+``` python
 tuple = (1, 3) # Define a tupla
 a, b, c = (1, 2, 3) # Coleta valores da tupla em variáveis separadas
 
@@ -68,7 +68,7 @@ list[2:] # Omite até o segundo valor da tupla (retorna uma tupla)
 
 ### Funções/métodos
 
-```
+``` python
 def bestFunctionEver(var, var2): # Declara função com 2 parâmetros
   return var + var2 # Retorno da função
 
@@ -81,7 +81,7 @@ func('anonymous') # chama função anônima
 
 ### Classes
 
-```
+``` python
 class WorseClassEver: # Declara classe
   def __init__(self): # Método base de setup da classe
     return False # Retorno do método base de setup da classe
@@ -91,7 +91,7 @@ class WorseClassEver: # Declara classe
 
 - If's
 
-```
+``` python
 if var > 2: # if padrão
   print('hmmm')
 elif var < 2:
@@ -104,7 +104,7 @@ else:
 
 - For
 
-```
+``` python
 for number in [1, 2, 3]: # for sobre listas
   print(number)
 
@@ -122,7 +122,7 @@ for i in range(2, 4): # itera de 2 a 3
 
 - While
 
-```
+``` python
 dojo = 0
 while dojo < 10:
   print('dojo is awesome')
@@ -131,7 +131,7 @@ while dojo < 10:
 
 - Exceções
 
-```
+``` python
 try:
   var = list_not_declare[1]
   raise IndexError('Another index erro') # Levanta erro de acesso de índice
@@ -145,34 +145,34 @@ finally:
   print('All clean') # Executa sob qualquer circunstância
 ```
 
-## Introdução básica do framework de teste unittest:
+## Introdução básica do framework de teste `unittest`:
 
 Extende-se do unittest.TestCase:
 
-```
+``` python
 import unittest
 
-Class TestFrame(unittest.TesCase):
+Class TestFrame(unittest.TestCase):
 ```
 
 ### Assertivas
 
-```
-assertEqual('DOJO', dojo.upper())
-assertNotEqual('Dojo', dojo.upper())
-assertTrue(1 < 2)
-assertFalse(1 > 2)
+``` python
+self.assertEqual('DOJO', dojo.upper())
+self.assertNotEqual('Dojo', dojo.upper())
+self.assertTrue(1 < 2)
+self.assertFalse(1 > 2)
 ```
 
 ### Executar
 
-```
+``` sh
 python3 -m unittest test.py
 ```
 
 Se o código abaixo estiver presente no arquivo teste, executar normalmente como código python.
 
-```
+``` python
 if __name__ == '__main__':
     unittest.main()
 ```
