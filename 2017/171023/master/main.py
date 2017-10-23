@@ -28,11 +28,13 @@ class ConvertTime:
         self.hour_table = {k: v for (k,v) in zip(range(1,12), hours_names)}
         self.minute_table = {k: v for (k,v) in zip(range(0,61), minutes_names)}
 
-    def recv_time_correct_time(self, hour, minute):
+    def recv_time_correct_time(self, hour_minute):
+        hour, minute = list(map(int, hour_minute.split(':')))
+
         if minute == 30:
             return self.hour_table[hour] + ' e meia'
         elif minute < 40:
-            return self.recv_time_literal_time(hour, minute)
+            return self.recv_time_literal_time(hour_minute)
         else:
             minute_name = 60-minute
             hour_name = hour+1
@@ -40,7 +42,9 @@ class ConvertTime:
             return self.minute_table[minute_name] + ' minutos para as ' + \
                     self.hour_table[hour_name]
 
-    def recv_time_literal_time(self, hour, minute):
+    def recv_time_literal_time(self, hour_minute):
+        hour, minute = list(map(int, hour_minute.split(':')))
+
         if hour < 1 or hour > 11 or minute < 0 or minute > 60:
             return 'ERROR'
         else:
