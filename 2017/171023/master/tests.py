@@ -91,10 +91,44 @@ class DojoTests(unittest.TestCase):
         result = self.cv.recv_time_correct_time(hour_minute)
         self.assertEqual(result, 'vinte minutos para as cinco')
 
-    # def test_rcv_utc(self):
-    #     hour_minute = '3:00 UTC-1'
-    #     result = self.cv.time_with_utc(hour_minute)
-    #     self.assertEqual(result, 'três horas')
+    def test_rcv_utc(self):
+        hour_minute = '3:00 UTC'
+        result = self.cv.time_with_utc(hour_minute)
+        self.assertEqual(result, 'três horas')
+
+    def test_rcv_utc_increase_time(self):
+        hour_minute = '3:03 UTC+2'
+        result = self.cv.time_with_utc(hour_minute)
+        self.assertEqual(result, 'cinco horas e três minutos')
+
+    def test_rcv_utc_decrease_time(self):
+        hour_minute = '9:43 UTC-5'
+        result = self.cv.time_with_utc(hour_minute)
+        self.assertEqual(result, 'dezessete minutos para as cinco')
+
+    def test_rcv_utc_that_decrease_more_than_it_should(self):
+        hour_minute = '5:43 UTC-5'
+        result = self.cv.time_with_utc(hour_minute)
+        self.assertEqual(result, 'ERROR')
+
+    def test_rcv_utc_that_increase_more_than_it_should(self):
+        hour_minute = '8:43 UTC+5'
+        result = self.cv.time_with_utc(hour_minute)
+        self.assertEqual(result, 'ERROR')
+
+    def test_third_sprint(self):
+        hour_minute = '3:00 UTC-1'
+        result = self.cv.time_with_utc(hour_minute)
+        self.assertEqual(result, 'duas horas')
+
+        hour_minute = '7:03 UTC+3'
+        result = self.cv.time_with_utc(hour_minute)
+        self.assertEqual(result, 'dez horas e três minutos')
+
+        hour_minute = '3:53 UTC-2'
+        result = self.cv.time_with_utc(hour_minute)
+        self.assertEqual(result, 'sete minutos para as duas')
+
 
 if __name__ == '__main__':
     unittest.main()

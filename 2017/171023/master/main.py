@@ -28,6 +28,23 @@ class ConvertTime:
         self.hour_table = {k: v for (k,v) in zip(range(1,12), hours_names)}
         self.minute_table = {k: v for (k,v) in zip(range(0,61), minutes_names)}
 
+    def time_with_utc(self, hour_minute):
+        hm, utc = hour_minute.split(' ')
+        hour, minute = list(map(int, hm.split(':')))
+
+        if len(utc) == 3:
+            return self.recv_time_correct_time(hm)
+        else:
+            if utc[3] == '+':
+                hour = hour + int(utc[4])
+            elif utc[3] == '-':
+                hour = hour - int(utc[4])
+
+            if hour < 1 or hour > 11:
+                return 'ERROR'
+
+            return self.recv_time_correct_time(str(hour)+':'+str(minute))
+
     def recv_time_correct_time(self, hour_minute):
         hour, minute = list(map(int, hour_minute.split(':')))
 

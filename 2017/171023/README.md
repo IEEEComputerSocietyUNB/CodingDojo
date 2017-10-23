@@ -29,7 +29,7 @@ Escreva uma classe que escreva a hora em palavras no formato mencionado acima.
     - 1:15 -> uma hora e quinze minutos
     - 4:30 -> quatro horas e trinta minutos
 
-- Segunda Entrega: Tradução correta dos horários, casos testes (vinte minutos antes e horários exatos, 00 ou 30) :
+- Segunda Entrega: Tradução correta dos horários, casos testes (vinte minutos antes e caso de x:30) :
     - 3:00 -> três horas
     - 3:01 -> três horas e um minuto
     - 6:56 -> quatro minutos para as sete
