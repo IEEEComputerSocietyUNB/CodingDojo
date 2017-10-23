@@ -1,5 +1,5 @@
 class ConvertTime:
-    def recv_time(self, hour, minute):
+    def __init__(self):
         hours_names = ['uma', 'duas', 'três', 'quatro', 'cinco',
                         'seis', 'sete', 'oito', 'nove', 'dez',
                         'onze']
@@ -25,20 +25,33 @@ class ConvertTime:
         minutes_names = ['zero'] + minutes_names + twenty_numbers + \
                         thirty_numbers + forty_numbers + fifty_numbers
 
-        hour_table = {k: v for (k,v) in zip(range(1,12), hours_names)}
-        minute_table = {k: v for (k,v) in zip(range(0,61), minutes_names)}
+        self.hour_table = {k: v for (k,v) in zip(range(1,12), hours_names)}
+        self.minute_table = {k: v for (k,v) in zip(range(0,61), minutes_names)}
 
+    def recv_time_correct_time(self, hour, minute):
+        if minute == 30:
+            return self.hour_table[hour] + ' e meia'
+        elif minute < 40:
+            return self.recv_time_literal_time(hour, minute)
+        else:
+            minute_name = 60-minute
+            hour_name = hour+1
+
+            return self.minute_table[minute_name] + ' minutos para as ' + \
+                    self.hour_table[hour_name]
+
+    def recv_time_literal_time(self, hour, minute):
         if hour < 1 or hour > 11 or minute < 0 or minute > 60:
             return 'ERROR'
         else:
             if hour == 1:
-                result = hour_table[hour] + ' hora'
+                result = self.hour_table[hour] + ' hora'
             else:
-                result = hour_table[hour] + ' horas'
+                result = self.hour_table[hour] + ' horas'
 
             if minute == 1:
-                result = result + ' e ' + minute_table[minute] + ' minuto'
+                result = result + ' e ' + self.minute_table[minute] + ' minuto'
             elif minute != 0:
-                result = result + ' e ' + minute_table[minute] + ' minutos'
+                result = result + ' e ' + self.minute_table[minute] + ' minutos'
 
         return result
