@@ -62,10 +62,19 @@ $ python tests.py
 ### Sessão 1
 
 The good :smiley::
-- ???
+- O problema foi adequado.
+- Teve Coffee Break (cortesia da SENE).
+- Linguagem diferente é legal.
+- Python foi legal.
+- A experiência com mó galera codando geral em um ambiente que nao eh sala de aula..
+- Pair programming + TDD interessantíssimo.
 
 The Bad :worried::
-- ???
+- SOCORRO `KeyError`
+- Nem todos codaram.
+
+Sugestao:
+- Guia para os erros ficou faltando.
 
 ### Sessão 2
 The good :smiley::
