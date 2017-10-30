@@ -6,7 +6,7 @@
 - Biblioteca de testes: pytest
 - Mestre: @WilleMarcel
 
-### Desafio .1
+### Desafio 1
 
 O OpenStreetMap é um grande banco de dados geoespaciais livre e colaborativo. Vamos utilizar os dados do OSM nesse desafio. O Overpass Turbo é um dos métodos de consulta que dispomos para consultar e extrair dados do OSM. Vamos utilizá-lo para extrair a capital de todos os países do mundo a partir do OpenStreetMap. Você pode acessar essa consulta feita previamente: http://overpass-turbo.eu/s/qxe e exportar o arquivo no formato GeoJSON para utilizá-lo nos próximos passos. Uma simples query nos dá uma infinidade de dados, observe que as cidades possuem informação de nomes em diversos idiomas. Com esses dados, faremos um pequeno jogo. A forma de interação do jogo será pela linha de comando.
 
@@ -30,7 +30,7 @@ Sugestão: para ser mais fácil de testar, podemos usar uma sintaxe como:
   Fase.responder(resposta)
 
 
-### Desafio .2
+### Desafio 2
 
 Temos 3 tipos principais de elementos geoespaciais: nós (pontos), linhas e polígonos. Todos eles são constituídos por uma ou mais coordenadas geográficas. A coordenada geográfica é constituída por dois valores: longitude e latitude.
 Escreva uma função que retorne o centroide de um elemento geoespacial, sendo ele um nó, uma linha ou um polígono. Escreva uma outra função que retorne o Bounding Box (BBOX) de uma linha ou de um polígono (não é possível calcular a bounding box de um nó). Em todos os casos, o dado de entrada deve ser apenas uma tupla ou lista.
