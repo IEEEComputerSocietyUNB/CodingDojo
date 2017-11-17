@@ -7,7 +7,7 @@ Quando esse byte é igual a zero, a execução é terminada.
 
 O conjunto de instruções válidas da linguagem é o seguinte:
 
-Instruções | Descrição
+Instrução | Descrição
 ------------|-------------
 "<" | Incrementa o ponteiro.
 ">" | Decrementa o ponteiro.
