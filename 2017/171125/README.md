@@ -27,7 +27,7 @@ Instrução | Descrição
 - Comandos "[" e "]" não estão em quantidades iguais
 - Ponteiro maior que 29999 ou menor que 0
 
-Para visualizar um exemplo de como o brainfuck funciona: [Brainfuck](https://fatiherikli.github.io/brainfuck-visualizer/#KysrKysrKysrK1s+KysrKysrKys+KysrKysrKysrKz4rKysrKysrKysrKz4rKysrKysrKysrPisrKysrKysrKysrKz4rKysrKysrKysrPisrKysrKysrKys+KysrPisrKysrKysrPisrKysrPDw8PDw8PDw8PC1dPisrKysuPi0tLS4+LS0uPisrKysrLj4tLS0tLj4rKysrLj4tLS0uPisrLj4rKysuPi4=)
+Para visualizar um exemplo de como o brainfuck funciona: [Brainfuck](https://fatiherikli.github.io/brainfuck-visualizer/#KysrKysrKytbPisrKytbPisrPisrKz4rKys+Kzw8PDwtXT4rPis+LT4+K1s8XTwtXQo+Pi4+LS0tLisrKysrKysuLisrKy4+Pi48LS48LisrKy4tLS0tLS0uLS0tLS0tLS0uPj4rLj4rKy4=)
 
 ## Entregas ##
 
