@@ -32,7 +32,7 @@ Para visualizar um exemplo de como o brainfuck funciona: [Brainfuck](https://fat
 ## Entregas ##
 
 
-- Primeira entrega: Programa simples que aceite os 6 comandos basicos +-<>,.
+- Primeira entrega: Programa simples que aceite apenas os 6 comandos basicos +-<>,.
 
 Casos de testes | Output
 ----------------|-------
@@ -44,7 +44,7 @@ Casos de testes | Output
 +++++Testando+++++++++++++++Outros+++++++++++++++++++++++++++++++++++++Caracteres++++++++++++++++++++++++e+++++++++.-.-.-.-.deixando.-.-.-.-.-.-a.-.-.-.-cadeia.-.-.-.-.-.-.-enorme.-.-.-. | ZYXWVUTSRQPONMLKJIHGFEDCBA
 
 
-- Segunda entrega: Aceitar loops 
+- Segunda entrega: Aceitar loops simples
 
 Casos de testes |  Output   
 ----------------|---------   
@@ -53,8 +53,10 @@ Casos de testes |  Output
 ++++++[>++++++++++<-]>++++>++++++++++++++++++++++++++[<+.>-] | ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ++++++++++[>++++++++>++++++++++>+++++++++++>++++++++++>++++++++++++>++++++++++>++++++++++>+++>++++++++>+++++<<<<<<<<<<-]>++++.>---.>--.>+++++.>----.>++++.>---.>++.>+++.>. | Talitha S2
 ,>,------------------------------------------------[<+>-]<. | "x-y"
-++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++. | Hello Word!
-++++testando++>+++caracteres++<[>++++++ignorados++++<-]>. | A
-++++TESTE++>+++DOS++>+++MUITOS++>+++CARACTERES++<<<[>+++++IG+++++>++++NO++++++>+++RA+++++++<<<-]>.DOS>+.>++. | ABC
 
+- Terceira entrega: Aceitar loops encadeados
+
+Casos de testes | Output
+----------------|--------
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++. | Hello Word!
   
