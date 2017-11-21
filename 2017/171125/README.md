@@ -31,7 +31,8 @@ Para visualizar um exemplo de como o brainfuck funciona: [Brainfuck](https://fat
 
 ## Entregas ##
 
-- Primeira entrega: Programa simples que aceite os 6 comandos basicos +-<>,. :
+
+- Primeira entrega: Programa simples que aceite os 6 comandos basicos +-<>,.
 
 Casos de testes | Output
 ----------------|-------
@@ -40,10 +41,10 @@ Casos de testes | Output
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. | ZYXWVUTSRQPONMLKJIHGFEDCBA 
 ,. | "Imprime o caracter digitado"
 ,-. | "Descrementa em 1 o numero digitado"
-,>,------------------------------------------------[<+>-]<. | "x-y"
++++++Testando+++++++++++++++Outros+++++++++++++++++++++++++++++++++++++Caracteres++++++++++++++++++++++++e+++++++++.-.-.-.-.deixando.-.-.-.-.-.-a.-.-.-.-cadeia.-.-.-.-.-.-.-enorme.-.-.-. | ZYXWVUTSRQPONMLKJIHGFEDCBA
 
 
-- Segunda entrega: Aceitar loops : 
+- Segunda entrega: Aceitar loops 
 
 Casos de testes |  Output   
 ----------------|---------   
@@ -51,11 +52,9 @@ Casos de testes |  Output
 ++++++[>++++++++++>++++++++++>++++++++++<<<-]>+++++.>++++++.>+++++++. | ABC 
 ++++++[>++++++++++<-]>++++>++++++++++++++++++++++++++[<+.>-] | ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ++++++++++[>++++++++>++++++++++>+++++++++++>++++++++++>++++++++++++>++++++++++>++++++++++>+++>++++++++>+++++<<<<<<<<<<-]>++++.>---.>--.>+++++.>----.>++++.>---.>++.>+++.>. | Talitha S2
+,>,------------------------------------------------[<+>-]<. | "x-y"
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++. | Hello Word!
-  
-- Terceira entrega: Garantir que os demais caracteres sejam ignorados :
-
-Casos de testes | Output
-----------------|--------
 ++++testando++>+++caracteres++<[>++++++ignorados++++<-]>. | A
 ++++TESTE++>+++DOS++>+++MUITOS++>+++CARACTERES++<<<[>+++++IG+++++>++++NO++++++>+++RA+++++++<<<-]>.DOS>+.>++. | ABC
+
+  
