@@ -29,13 +29,13 @@ Instrução | Descrição
 #### Manipulação básica
 Em Brainfuck, a memória tem estado, isto é, a cada operação o estado da memória altera-se de acordo com a ação, e todas as alterações são refletidas em operações futuras. A intenção é colocar valores em cada posição da memória com um valor inteiro correspondente a um caractere ASCII. Vamos ver um exemplo prático:
 
-++++++++++
-++++++++++
-++++++++++
-++++++++++
-++++++++++
-++++++++++
-+++++.
+++++++++++   
+++++++++++   
+++++++++++    
+++++++++++    
+++++++++++    
+++++++++++   
++++++.  
 
 Segundo a tabela de operadores que já foi apresentada, o operador + serve para incrementar numa unidade (+1) o valor da posição atual da memória (inicializado internamente a zero). Temos então 65 operadores de incremento. Isto vai permitir colocar o valor 65 na primeira célula de memória, 65 é o valor do caractere "A" na table ASCII, a última linha contém o operador ".", que imprime o caractere correspondente, no nosso caso imprimirá a letra "A"!
 
