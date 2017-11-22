@@ -1,5 +1,5 @@
 import unittest
-from brainfuck import Brainfuck
+from main import Brainfuck
 
 class BrainfuckTests(unittest.TestCase):
   
