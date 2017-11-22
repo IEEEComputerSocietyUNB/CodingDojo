@@ -34,6 +34,8 @@ Exemplo:
 | [Edição 09](2017/170304) | Python 3                | Unittest            |
 | [Edição 10](2017/170325) | Gitlab-CI               |                     |
 | [Edição 11](2017/170722) | Python 3.5              | Pytest              |
+| [Edição 13](2017/171023) | Python 3                | Unittest            |
+| [Edição 14](2017/171125) |                         |                     |
 
 ## Equipe responsável
 
