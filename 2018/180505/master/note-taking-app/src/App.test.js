@@ -18,7 +18,7 @@ describe('App', () => {
   it('types into the input', () => {
     const { container } = app
 
-    const input = container.querySelector('div.Note input')
+    const input = container.querySelector('div.Note textarea')
     input.value = 'potato'
     Simulate.change(input)
     expect(input).toMatchSnapshot()
@@ -26,7 +26,7 @@ describe('App', () => {
 
   it('edits notes', () => {
     const { container } = app
-    const note = container.querySelector('div.Note input')
+    const note = container.querySelector('div.Note textarea')
     const noteList = container.querySelector('.NoteList ul')
 
     note.value = "My new value"
@@ -62,12 +62,12 @@ describe('App', () => {
   it('selects a different note when creating notes', () => {
     const { container, getByText } = app
 
-    expect(container.querySelector('div.Note input').value).toEqual('my first note')
+    expect(container.querySelector('div.Note textarea').value).toEqual('my first note')
 
     // add a note
     Simulate.click(getByText('new note')) // adds note '1'
 
-    expect(container.querySelector('div.Note input').value).toEqual('1')
+    expect(container.querySelector('div.Note textarea').value).toEqual('1')
   })
 
   it('selects a different note on click', () => {
@@ -78,6 +78,6 @@ describe('App', () => {
     Simulate.click(getByText('new note')) // adds note '3'
     Simulate.click(getByText('1'))
 
-    expect(container.querySelector('div.Note input').value).toEqual('1')
+    expect(container.querySelector('div.Note textarea').value).toEqual('1')
   })
 })

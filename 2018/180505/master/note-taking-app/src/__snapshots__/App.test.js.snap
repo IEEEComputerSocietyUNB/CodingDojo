@@ -21,11 +21,12 @@ exports[`App edits notes 1`] = `
 `;
 
 exports[`App edits notes 2`] = `
-<input
+<textarea
   type="text"
   placeholder="Your note goes here"
-  value="My new value"
-/>
+>
+  My new value
+</textarea>
 `;
 
 exports[`App renders without crashing 1`] = `
@@ -37,9 +38,10 @@ exports[`App renders without crashing 1`] = `
 `;
 
 exports[`App types into the input 1`] = `
-<input
+<textarea
   type="text"
   placeholder="Your note goes here"
-  value="potato"
-/>
+>
+  potato
+</textarea>
 `;

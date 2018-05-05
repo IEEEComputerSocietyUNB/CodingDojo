@@ -4,7 +4,7 @@ export default class Note extends Component {
   render() {
     return (
       <div className="Note">
-        <input
+        <textarea
           type="text"
           value={this.props.note}
           onChange={this.props.onNoteEdit}

@@ -1,9 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Note renders an input field with placeholder \`Your note goes here\` 1`] = `
-<input
+<textarea
   type="text"
   placeholder="Your note goes here"
-  value=""
 />
 `;
