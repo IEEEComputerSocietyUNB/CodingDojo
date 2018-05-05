@@ -30,6 +30,14 @@ export default class NoteList extends Component {
 
   current = index => index === this.props.current ? 'current' : ''
 
+  limit = (content) => {
+    if (content.length > 30) {
+      return `${content.slice(0, 30)}...`
+    }
+
+    return content 
+  }
+
   render() {
     return (
       <div className="NoteList">
@@ -55,7 +63,7 @@ export default class NoteList extends Component {
                 onClick={() => this.toggleNote(index)}
               />
               <span className="content">
-                {note}
+                {this.limit(note)}
               </span>
             </li>
           ))}
