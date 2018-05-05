@@ -4,8 +4,21 @@ body {
   font-family: sans-serif;
 }
 
+.App-intro {
+  width: 100vw;
+  display: flex;
+}
+
+.NoteList {
+  flex: 1;
+}
+
+.Note {
+  flex: 2;
+}
+
 .Note > input {
-  width: 50vw;
+  width: 100%;
   height: 80vh;
   word-break: break-word;
 }
