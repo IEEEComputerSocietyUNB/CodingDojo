@@ -14,13 +14,20 @@ class App extends Component {
     })
   }
 
+  addNote = () =>
+  {
+    this.setState({
+      listNotes: this.state.listNotes.concat(this.state.value)
+    });
+  }
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <Note handleChange={this.handleChange} value={this.state.value} />
+        <Note handleChange={this.handleChange} value={this.state.value} addNote={this.addNote}/>
         <ShowNotes listNotes={this.state.listNotes} />
       </div>
     )
