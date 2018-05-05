@@ -14,13 +14,7 @@ describe('Note', () => {
     input = getByPlaceholderText('Your note goes here')
   })
 
-  it('renders a input field with placeholder `Your note goes here`', () => {
-    expect(input).toMatchSnapshot()
-  })
-
-  it('allows me to type into the input', () => {
-    input.value = 'potato'
-    Simulate.change(input)
+  it('renders an input field with placeholder `Your note goes here`', () => {
     expect(input).toMatchSnapshot()
   })
 })

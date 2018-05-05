@@ -2,16 +2,7 @@ import React, { Component } from 'react'
 
 export default class NoteList extends Component {
   state = {
-    list: [
-      'my first note',
-    ],
-    selected: []
-  }
-
-  addNote = () => {
-    this.setState({
-      list: [...this.state.list, this.state.list.length]
-    })
+    selected: [],
   }
 
   toggleNote = (index) => {
@@ -31,17 +22,17 @@ export default class NoteList extends Component {
   }
 
   removeNotes = () => {
-    this.setState(state => ({
-      list: state.list.filter((note, index) => !state.selected.includes(index)),
+    this.props.removeNotes(this.state.selected)
+    this.setState({
       selected: [],
-    }))
+    })
   }
 
   render() {
     return (
       <div className="NoteList">
         <div className="toolbar">
-          <button onClick={this.addNote}>
+          <button onClick={this.props.addNote}>
             new note
           </button>
           <button onClick={this.removeNotes}>
@@ -50,7 +41,7 @@ export default class NoteList extends Component {
         </div>
 
         <ul className="list">
-          {this.state.list.map((note, index) => (
+          {this.props.list.map((note, index) => (
             <li className="note" key={`${note}-${index}`}>
               <input
                 type="checkbox"

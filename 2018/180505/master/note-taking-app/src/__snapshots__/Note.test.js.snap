@@ -1,14 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Note allows me to type into the input 1`] = `
-<input
-  type="text"
-  placeholder="Your note goes here"
-  value="potato"
-/>
-`;
-
-exports[`Note renders a input field with placeholder \`Your note goes here\` 1`] = `
+exports[`Note renders an input field with placeholder \`Your note goes here\` 1`] = `
 <input
   type="text"
   placeholder="Your note goes here"
