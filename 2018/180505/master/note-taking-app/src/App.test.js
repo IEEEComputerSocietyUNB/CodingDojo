@@ -65,7 +65,18 @@ describe('App', () => {
     expect(container.querySelector('div.Note input').value).toEqual('my first note')
 
     // add a note
-    Simulate.click(getByText('new note'))
+    Simulate.click(getByText('new note')) // adds note '1'
+
+    expect(container.querySelector('div.Note input').value).toEqual('1')
+  })
+
+  it('selects a different note on click', () => {
+    const { container, getByText } = app
+
+    Simulate.click(getByText('new note')) // adds note '1'
+    Simulate.click(getByText('new note')) // adds note '2'
+    Simulate.click(getByText('new note')) // adds note '3'
+    Simulate.click(getByText('1'))
 
     expect(container.querySelector('div.Note input').value).toEqual('1')
   })

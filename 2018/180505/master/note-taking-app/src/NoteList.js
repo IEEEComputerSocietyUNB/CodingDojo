@@ -28,6 +28,8 @@ export default class NoteList extends Component {
     })
   }
 
+  current = index => index === this.props.current ? 'current' : ''
+
   render() {
     return (
       <div className="NoteList">
@@ -42,14 +44,16 @@ export default class NoteList extends Component {
 
         <ul className="list">
           {this.props.list.map((note, index) => (
-            <li className="note" key={`${note}-${index}`}>
+            <li className={`note ${this.current(index)}`} key={`${note}-${index}`}>
               <input
                 type="checkbox"
                 alt={`remove note #${index + 1}`}
                 checked={this.isNoteSelected(index)}
                 onClick={() => this.toggleNote(index)}
               />
-              {note}
+              <span className="content" onClick={() => this.props.changeSelection(index)}>
+                {note}
+              </span>
             </li>
           ))}
         </ul>

@@ -38,6 +38,12 @@ class App extends Component {
     }))
   }
 
+  changeSelection = (index) => {
+    this.setState({
+      current: index,
+    })
+  }
+
   render() {
     return (
       <div className="App">
@@ -49,6 +55,8 @@ class App extends Component {
             list={this.state.noteList}
             addNote={this.addNote}
             removeNotes={this.removeNotes}
+            changeSelection={this.changeSelection}
+            current={this.state.current}
           />
           <Note
             note={this.getCurrentNote()}

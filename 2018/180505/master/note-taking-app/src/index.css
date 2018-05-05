@@ -18,8 +18,20 @@ body {
   padding-left: 0;
 }
 
+.NoteList > ul > li {
+  display: flex;
+}
+
+.NoteList > ul > li.current {
+  background-color: rgb(255, 235, 176);
+}
+
 .NoteList > ul > li > input {
   margin-right: 1em;
+}
+
+.NoteList > ul > li > .content {
+  flex: 1;
 }
 
 .Note {

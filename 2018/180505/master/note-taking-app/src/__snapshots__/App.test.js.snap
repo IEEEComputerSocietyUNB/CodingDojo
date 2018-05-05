@@ -5,13 +5,17 @@ exports[`App edits notes 1`] = `
   class="list"
 >
   <li
-    class="note"
+    class="note current"
   >
     <input
       type="checkbox"
       alt="remove note #1"
     />
-    My new value
+    <span
+      class="content"
+    >
+      My new value
+    </span>
   </li>
 </ul>
 `;
