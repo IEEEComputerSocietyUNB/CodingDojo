@@ -20,10 +20,15 @@ describe('App', () => {
     expect(getByAltText('note')).toMatchSnapshot()
   })
 
-  it('show input value on screen', () =>
-  {
-      const { getByAltText } = app;
-      expect(getByAltText('shownotes')).toMatchSnapshot();
-  })
+  it('show input value on screen', () => {
+    const { getByAltText } = app
+    const note = getByAltText('note')
 
+    expect(getByAltText('shownotes')).toMatchSnapshot()
+
+    note.value = "potato"
+    Simulate.change(note)
+
+    expect(getByAltText('shownotes').value).toEqual('potato')
+  })
 })
