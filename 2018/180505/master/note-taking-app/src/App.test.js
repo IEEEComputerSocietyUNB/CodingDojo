@@ -58,4 +58,15 @@ describe('App', () => {
 
     expect(container.querySelectorAll('li.note').length).toBe(2)
   })
+
+  it('selects a different note when creating notes', () => {
+    const { container, getByText } = app
+
+    expect(container.querySelector('div.Note input').value).toEqual('my first note')
+
+    // add a note
+    Simulate.click(getByText('new note'))
+
+    expect(container.querySelector('div.Note input').value).toEqual('1')
+  })
 })

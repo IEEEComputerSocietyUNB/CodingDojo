@@ -25,14 +25,16 @@ class App extends Component {
   }
 
   removeNotes = (notesToBeRemoved) => {
-    this.setState(state => ({
-      noteList: state.noteList.filter((note, index) => !notesToBeRemoved.includes(index))
+    this.setState(({ noteList, current }) => ({
+      noteList: noteList.filter((note, index) => !notesToBeRemoved.includes(index)),
+      current: 0,
     }))
   }
 
   addNote = () => {
     this.setState(({ noteList }) => ({
-      noteList: [...noteList, noteList.length]
+      noteList: [...noteList, noteList.length],
+      current: noteList.length,
     }))
   }
 
