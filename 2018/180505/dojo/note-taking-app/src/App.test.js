@@ -14,4 +14,16 @@ describe('App', () => {
     const { container, getByText } = app
     expect(getByText('Welcome to React')).toMatchSnapshot()
   })
+
+  it('makes it possible to write', () => {
+    const { getByAltText } = app
+    expect(getByAltText('note')).toMatchSnapshot()
+  })
+
+  it('show input value on screen', () =>
+  {
+      const { getByAltText } = app;
+      expect(getByAltText('shownotes')).toMatchSnapshot();
+  })
+
 })
