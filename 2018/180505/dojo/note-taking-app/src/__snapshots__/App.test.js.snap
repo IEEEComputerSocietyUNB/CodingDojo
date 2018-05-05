@@ -17,8 +17,9 @@ exports[`App renders without crashing 1`] = `
 `;
 
 exports[`App show input value on screen 1`] = `
-<input
-  alt="shownotes"
-  value=""
-/>
+<li
+  class="shownotes"
+>
+  potato
+</li>
 `;

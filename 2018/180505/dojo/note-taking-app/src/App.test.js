@@ -21,14 +21,16 @@ describe('App', () => {
   })
 
   it('show input value on screen', () => {
-    const { getByAltText } = app
+    const { getByAltText, container } = app
     const note = getByAltText('note')
-
-    expect(getByAltText('shownotes')).toMatchSnapshot()
-
+    
+    expect(container.querySelector('.shownotes')).toMatchSnapshot()
     note.value = "potato"
     Simulate.change(note)
 
-    expect(getByAltText('shownotes').value).toEqual('potato')
+    expect(container.querySelector('.shownotes')).toHaveTextContent('potato')
   })
+
+
+
 })

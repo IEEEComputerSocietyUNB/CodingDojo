@@ -4,7 +4,8 @@ import ShowNotes from './ShowNotes'
 
 class App extends Component {
   state = {
-    value: ''
+    value: '',
+    listNotes: ['potato', 'oioi']
   }
 
   handleChange = (event) => {
@@ -20,7 +21,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <Note handleChange={this.handleChange} value={this.state.value} />
-        <ShowNotes value={this.state.value} />
+        <ShowNotes listNotes={this.state.listNotes} />
       </div>
     )
   }
