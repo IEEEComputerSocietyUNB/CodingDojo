@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App edits notes 1`] = `
+<ul
+  class="list"
+>
+  <li
+    class="note current"
+  >
+    <input
+      type="checkbox"
+      alt="remove note #1"
+    />
+    <span
+      class="content"
+    >
+      My new value
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`App edits notes 2`] = `
+<textarea
+  type="text"
+  placeholder="Your note goes here"
+>
+  My new value
+</textarea>
+`;
+
+exports[`App renders without crashing 1`] = `
+<h1
+  class="App-title"
+>
+  Welcome to React
+</h1>
+`;
+
+exports[`App types into the input 1`] = `
+<textarea
+  type="text"
+  placeholder="Your note goes here"
+>
+  potato
+</textarea>
+`;
