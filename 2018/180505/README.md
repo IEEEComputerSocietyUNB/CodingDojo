@@ -43,3 +43,28 @@ O usuário deve ser capaz de modificar o conteúdo de um item da lista
 > Componente NoteList
 
 O usuário deve ser capaz de selecionar um dos items da lista para realizar sua edição conforme a quinta entrega.
+
+## Retrospectiva
+
+### The good
+- React
+- Infraestrutura
+- Ritmo & cadência
+- Git!
+- Uso de ferramentas de pesquisa (duckduckgo)
+- Note taking app
+- Sábado de tarde
+- O sensei veio com barbinha top
+- Lanche da hora
+- Git sheet
+- Boa adaptação, fizeram o grosso da coisa 💁
+
+### The bad
+- O teclado do Mac
+- Informações demais com o React + JS
+- Faltou patrocínios para coffee break
+
+### The ugly
+- Olhar mais a sprint
+- O sensei chegou tardão
+- Faltou café ☕️
