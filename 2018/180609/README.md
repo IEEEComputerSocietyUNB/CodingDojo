@@ -1,4 +1,11 @@
-# Coding Dojo UnB
+# Coding Dojo UnB (09/06/2018)
+
+Este repositório contêm os codigos fonte desenvolvidos durante o dojo de programação.
+Para reproduzir a simulação e os testes, recomenda-se buscar o pacote ROS completo do Dojo no seguinte repositório:
+
+* [ROS-Works-Dojos](https://github.com/CSS-UnB/ros-works-dojos)
+
+Quaisquer dúvidas, entre em contato com o mestre do dia [Pedro Perruci](https://github.com/Perruci).
 
 ## Problema: Cinemática em ROS (Robotic Operational System)
 
