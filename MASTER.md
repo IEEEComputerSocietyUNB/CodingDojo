@@ -20,7 +20,7 @@
  :heavy_check_mark: [O dojo é composto de 2 sessões, 2 retrospectivas e 1 intervalo.](#12) </br>
  :heavy_check_mark: [Após mestrar por 3 vezes, a Computer Society UnB irá emitir certificado de participação.](#13) </br>
 
-## Linguagem de Programação: 
+## Linguagem de Programação:
 
 ### 1 - Escolha linguagens, preferencialmente, de alto nível: </br>
 <a name="1">
@@ -47,15 +47,15 @@ Caso escolha alguma dessas linguagens acima, favor utilizar a mesma ou caso conf
 esteja faltando, procure completa-la para contribuir com o Dojo e deixar para os próximos mestres.
 </a>
 
-## Testes: 
+## Testes:
 
 ### 3 - Utilização obrigatória da ferramenta de testes: </br>
 <a name="3">
 
 Para a prática do Test-Driven-Development será necessário utilizar alguma ferramenta para teste própria da 
 linguagem escolhida e fica a critério do mestre a escolha desta.
-</a>	
-	
+</a>
+
 ### 4 - Disponibilize conhecimento mínimo de sintaxe / semântica da ferramenta de testes da linguagem de programação:</br>
 <a name="4">
 
