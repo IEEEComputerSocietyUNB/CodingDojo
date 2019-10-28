@@ -1,22 +1,24 @@
 # Coding Dojo
-## (Universidade de Brasília | UnB)
+## (University of Brasília | UnB)
 
-Este repositório é composto por códigos desenvolvidos nas atividades que o Coding Dojo da Universidade de Brasília promove mensalmente no Campus Darcy Ribeiro.
+This library is composed by codes made at University of Brasilia's Coding Dojo, promoted every month at Campus Darcy Ribeiro.
 
-## Padrões de Organização
+<!-- Este repositório é composto por códigos desenvolvidos nas atividades que o Coding Dojo da Universidade de Brasília promove mensalmente no Campus Darcy Ribeiro. -->
+
+## Patterns of Organization
 
 A cada edição da atividade de TDD é criado uma pasta para organizar os códigos gerados pelos participantes do dojo. Os arquivos de instruções que o mestre disponibiliza de acordo com a linguagem de programação e ferramenta de testes também estão disponíveis nessas pastas de acordo com o dia.
 
 O padrão de nome da pasta é feito por :
 
 ```
-ANOMESDIA
+YYMMDD
 ```
 
-Exemplo:
+E.g.
 
 ```
-160618 - Sendo 16 o ano, 06 o mês e 18 o dia.
+160618 - 2016 the year, 06 (June) the month, 18 the day.
 ```
 
 ## Pastas organizadas por edições
@@ -40,9 +42,9 @@ Exemplo:
 | [Edição 16](2018/180505) | Python 3                | Unittest               |
 | Edição 17                |                         |                        |
 
-## Equipe responsável
-
-- Gerentes do projeto :
+## Organizers
+<!-- People is missing -->
+- Project managers:
   - Alexandre Augusto 
     - GitHub: [alexandrebarbaruiva](https://github.com/alexandrebarbaruiva)
   - André "decko" Brito 
@@ -56,7 +58,7 @@ Exemplo:
     - E-mail: tapumar@gmail.com
     - GitHub: [tapumar](https://github.com/tapumar)
     
- ## Antigos contribuidores
+ ## Former Contributors
 - Dayanne Fernandes da Cunha
     - E-mail: dayannefernandesc@gmail.com
     - GitHub: [Dayof](https://github.com/Dayof)
