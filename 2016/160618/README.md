@@ -3,7 +3,8 @@ Coding Dojo UnB
 
 ### 18 - June - 2016
 
-#### How to run:
+#### How to run
+
 ```bash
 $ python session1.py
 ```
@@ -12,8 +13,9 @@ $ python session1.py
 $ cat s1-input | ./session2
 ```
 
-#### Retrospectiva:
-##### Sessão 1 (TDD):
+#### Retrospectiva
+
+##### Sessão 1 (TDD)
 
 The good :smiley::
 - Teve um Dojo! Yay! BIRL 
@@ -29,7 +31,8 @@ The Bad :worried::
 
 The Ugly :fearful::
 
-##### Sessão 2 (Resolução de problemas):
+##### Sessão 2 (Resolução de problemas)
+
 The good :smiley::
 - Mais fácil entendimento
 - Teve mais cooperatividade

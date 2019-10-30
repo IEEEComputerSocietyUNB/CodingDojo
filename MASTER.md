@@ -59,14 +59,14 @@ linguagem escolhida e fica a critério do mestre a escolha desta.
 ### 4 - Disponibilize conhecimento mínimo de sintaxe / semântica da ferramenta de testes da linguagem de programação:</br>
 <a name="4">
 
-Assim como a linguagem de programação, também será necessário disponibilizar algum pacote mínimo de utilização 
+Assim como a linguagem de programação, também será necessário disponibilizar algum pacote mínimo de utilização
 da ferramenta para que seja possível a utilização da mesma por alguém que nunca tenha tido experiência.
 Em dojos passados, mestres já fizeram pacotes de apresentações das seguintes ferramentas de testes:
-	
+
 - [NUnit (C#)](https://github.com/ComputerSocietyUNB/TDD/blob/master/160625/0.%20Introduction%20C%23%20testing/README.md)
 - [Leiningen (Clojure)](https://github.com/ComputerSocietyUNB/TDD/blob/master/160709/doc/intro.md)
 
-Caso escolha alguma dessas ferramentas, favor utilizar a mesma ou caso confira que alguma informação 
+Caso escolha alguma dessas ferramentas, favor utilizar a mesma ou caso confira que alguma informação
 esteja faltando, procure completa-la para contribuir com o Dojo e deixar para os próximos mestres.
 </a>
 
@@ -87,10 +87,9 @@ queremos passar para os participantes do Dojo, logo, tente estimular o uso de bo
 Caso haja boas práticas específicas da linguagem a ser usada, tente apresentá-las na apresentação da linguagem e durante a sessão.
 </a>
 
-## Desafios:
+## Desafios
 
-
-### 7 - Prepare a atividade levando em consideração que o tempo para realizá-la será maior durante a dinâmica do que quando você a 		solucionou individualmente:</br>
+### 7 - Prepare a atividade levando em consideração que o tempo para realizá-la será maior durante a dinâmica do que quando você a solucionou individualmente:</br>
 <a name="7">
 
 Cada sessão do dojo contém 1 hora e 30 minutos, mais 15 minutos de retrospectiva da sessão, sendo que o 
@@ -114,7 +113,7 @@ fáceis para não assustar novos participantes. Também a dinâmica de programa�
 muito popular entre os programadores em geral, portanto, focar na dinâmica é prioridade.
 </a>
 
-## Informativos:
+## Informativos
 
 ### 10 - Faça uma descrição mínima do que será realizado no dia que irá mestrar:</br>
 <a name="10">
@@ -131,7 +130,7 @@ queremos evitar divulgar a linguagem que será utilizada para não possibilitar 
 este depara-se com uma linguagem desconhecida.
 </a>
 
-## Estrutura do Dojo:
+## Estrutura do Dojo
 
 ### 12 - O dojo é composto de 2 sessões, 2 retrospectivas e 1 intervalo:</br>
 <a name="12">
@@ -142,12 +141,12 @@ os pontos positivos, negativos e é aberto para os participantes sugerirem melho
 da atividade no dia.
 </a>
 
-### 13 - Após mestrar por 3 vezes, a [Computer Society UnB](https://www.facebook.com/IEEEComputerSocietyUnB) irá emitir certificado de participação: </br>
+### 13 - Após mestrar por 3 vezes, a [IEEE Computer Society UnB](https://www.facebook.com/IEEEComputerSocietyUnB) irá emitir certificado de participação: </br>
 <a name="13">
 
-Todos os participantes do Coding Dojo da UnB ganham certificado depois de uma determinada carga horária de participação nas atividades, tanto os mestres como os alunos. Os alunos ganham certificado após 1 trimestre de frequência da atividade de TDD e os mestres após 3 vezes puxando a atividade. O certificado é emitido pelo [Ramo Estudantil da Computer Society da UnB](https://www.facebook.com/IEEEComputerSocietyUnB).
+Todos os participantes do Coding Dojo da UnB ganham certificado depois de uma determinada carga horária de participação nas atividades, tanto os mestres como os alunos. Os alunos ganham certificado após 1 trimestre de frequência da atividade de TDD e os mestres após 3 vezes puxando a atividade. O certificado é emitido pela [IEEE Computer Society UnB](https://www.facebook.com/IEEEComputerSocietyUnB).
 </a>
 
 ## Contato
 
-Para maiores dúvidas não deixe de entrar em contato com os organizadores do projeto [Dayof](https://github.com/Dayof) e [Cris Silva Jr.](https://github.com/ishiikurisu) !! 
+Para maiores dúvidas não deixe de entrar em contato com os organizadores do projeto!
