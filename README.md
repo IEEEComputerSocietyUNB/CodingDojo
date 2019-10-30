@@ -50,7 +50,7 @@ Exemplo:
   - Daniella Angelos
     - GitHub: [daniangelo](https://github.com/daniangelo)
   - Cristiano Silva Jr.
-    - E-mail: cristianoalvesjr@gmail.com ou cristiano.a.junior@ieee.org
+    - E-mail: crisjr@pm.me
     - GitHub: [ishiikurisu](https://github.com/ishiikurisu)
   - Talitha Pumar Antunes
     - E-mail: tapumar@gmail.com
